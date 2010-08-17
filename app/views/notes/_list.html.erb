@@ -1,0 +1,6 @@
+<% @notes.each do |note| %>
+	<div id="notes-listing-item-<%=note.id%>">
+	   <a href="/notes/<%=note.id%>/edit" onclick="return openNote(this);"><%=note.title%></a>
+	   <br/>
+	</div>
+<% end %>

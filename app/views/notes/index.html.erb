@@ -1,22 +1,82 @@
-<h1>Listing notes</h1>
+<div id="notes-listing">
+	<div id="notes-listing-header">
+		<a href="#" onclick="return openCreateNote();">+</a><span>Notes</span>
+	</div>
+	
+	<div id="notes-listing-body">
+	    <%= render :partial => "list" %>		
+	</div>
+	<div id="notes-listing-new" style="display:none;">
+			<a href="#" onclick="return closeCreateNote();">x</a>
+			<% semantic_form_for @note do |form| %>
+			 <%= form.input :title, :required => true %>		 
+			 <%= form.buttons %>  
+			<% end %>
+	</div>
+	
+</div>
 
-<table>
-  <tr>
-    <th>Title</th>
-    <th>Content</th>
-  </tr>
 
-<% @notes.each do |note| %>
-  <tr>
-    <td><%=h note.title %></td>
-    <td><%=h note.content %></td>
-    <td><%= link_to 'Show', note %></td>
-    <td><%= link_to 'Edit', edit_note_path(note) %></td>
-    <td><%= link_to 'Destroy', note, :confirm => 'Are you sure?', :method => :delete %></td>
-  </tr>
-<% end %>
-</table>
 
-<br />
+<div id="notes-content">
 
-<%= link_to 'New note', new_note_path %>
+</div>
+
+<script type="text/javascript">
+
+    // opens the Create Note panel
+    function openCreateNote(){
+	    $('#notes-listing-new').css('display', 'block');	
+	}
+	
+	// closes the Create Note panel
+	function closeCreateNote(){
+	    $('#notes-listing-new').css('display', 'none');	
+	}
+	
+	function openNote(link, callback){
+		var panel = $("#notes-content");
+		
+		$.get(link.href, function(html) {
+			panel.html(html);
+		});
+		return false;
+	}
+	
+	// deletes a note
+	function deleteNote(link, id) {
+		$.getJSON(link.href, function(data) {
+			if (data.success) {
+				$(id).css('display', 'none');
+                $('#notes-content').html('');		
+			}
+			else {			
+			}
+		});
+		
+		return false;
+	}
+	
+	// creates a note
+	$("#new_note").submit(function() {
+	    
+		var path = $("#new_note").attr("action");
+		var params = $("#new_note").serialize();
+		$.post(path, params, function(data) {
+			if(data.success){
+				$('#notes-listing-new').css('display', 'none');
+				$('#note_title').val("");
+				$.get('/notes/list', function(html) {
+					$('#notes-listing-body').html(html);
+				});
+			}
+			else
+			{
+				
+			}
+		}, "json");
+		return false;
+    });
+	
+	
+</script>
