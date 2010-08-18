@@ -16,6 +16,12 @@ class NotesController < ApplicationController
 	
     render :partial => "list", :layout => false
   end
+  
+  def list_editable
+    @notes = Note.all
+	
+    render :partial => "list_editable", :layout => false
+  end
 
   # GET /notes/1
   # GET /notes/1.xml
@@ -77,7 +83,7 @@ class NotesController < ApplicationController
   # PUT /notes/1.xml
   def update
     @note = Note.find(params[:id])
-    
+	
 	if @note.update_attributes(params[:note])
 		render :json => { :success => :true }      
     else

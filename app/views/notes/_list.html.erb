@@ -1,6 +1,42 @@
+<ul id="notes-listing-list">
 <% @notes.each do |note| %>
-	<div id="notes-listing-item-<%=note.id%>">
+	<li id="notes-listing-item-<%=note.id%>" class="notes-listing-list-items">
+	   <div id="show-notes-listing-item-<%=note.id%>" onclick="openEditNoteTitle('#edit-notes-listing-item-<%=note.id%>', '#show-notes-listing-item-<%=note.id%>', '#edit_note_<%=note.id%>');">
 	   <a href="/notes/<%=note.id%>/edit" onclick="return openNote(this);"><%=note.title%></a>
 	   <br/>
-	</div>
+	   <%= note.created_at.strftime("%A %d %B %Y") if note.created_at %>
+	   <br/>
+	   </div>
+	   <div id="edit-notes-listing-item-<%=note.id%>" style="display:none;">
+		   <% semantic_form_for note do |form| %>
+				<%= form.input :title %> 
+		   <% end %>
+		   <a href="/notes/destroy/<%=note.id%>" onclick="return deleteNote(this, '#notes-listing-item-<%=note.id%>');">x</a>
+	   </div>  
+	</li>
 <% end %>
+</ul>
+
+<script type="text/javascript">
+	
+	// open edit note title
+	function openEditNoteTitle(edit, show, edit_note_id){
+		$(edit).css('display', 'block');
+		$(show).css('display', 'none');
+		$(edit_note_id).focusout(function() {
+			var path = $(edit_note_id).attr("action");
+			var params = $(edit_note_id).serialize();
+			$.post(path, params, function(data) {
+				if(data.success){
+					$(edit).css('display', 'none');
+					$(show).css('display', 'block');
+				}
+				else
+				{
+					
+				}
+			}, "json");
+			return false;
+		});
+	}
+</script>

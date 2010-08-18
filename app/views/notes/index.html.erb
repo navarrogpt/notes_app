@@ -1,6 +1,7 @@
 <div id="notes-listing">
 	<div id="notes-listing-header">
-		<a href="#" onclick="return openCreateNote();">+</a><span>Notes</span>
+		<div id="button-add"><a href="#" onclick="return openCreateNote();">+</a></div>
+		<span>Notes</span>
 	</div>
 	
 	<div id="notes-listing-body">
@@ -26,14 +27,17 @@
 
     // opens the Create Note panel
     function openCreateNote(){
-	    $('#notes-listing-new').css('display', 'block');	
+	    $('#notes-listing-new').css('display', 'block');
+		$('#button-add').css('display', 'none');
 	}
 	
 	// closes the Create Note panel
 	function closeCreateNote(){
 	    $('#notes-listing-new').css('display', 'none');	
+		$('#button-add').css('display', 'block');
 	}
 	
+	// opens a note
 	function openNote(link, callback){
 		var panel = $("#notes-content");
 		
@@ -45,15 +49,18 @@
 	
 	// deletes a note
 	function deleteNote(link, id) {
-		$.getJSON(link.href, function(data) {
-			if (data.success) {
-				$(id).css('display', 'none');
-                $('#notes-content').html('');		
-			}
-			else {			
-			}
-		});
-		
+		var answer = confirm ("Delete this note?")
+		if(answer)
+		{
+			$.getJSON(link.href, function(data) {
+				if (data.success) {
+					$(id).css('display', 'none');
+					$('#notes-content').html('');		
+				}
+				else {			
+				}
+			});
+		}
 		return false;
 	}
 	
@@ -77,6 +84,6 @@
 		}, "json");
 		return false;
     });
-	
+
 	
 </script>

@@ -1,22 +1,21 @@
-<%=@note.title%>
+<%=@note.title%><br/>
+<%=@note.created_at.strftime("%A %d %B %Y %H:%M") if @note.created_at %>
 
-<% semantic_form_for @note do |form| %>
+<% semantic_form_for @note, :html => { :id => "note_content_form" } do |form| %>
 	<%= form.input :content, :as => :ckeditor %>
 	<%= form.buttons %>  
 <% end %>
-
 
 <a href="/notes/destroy/<%=@note.id%>" onclick="return deleteNote(this, '#notes-listing-item-<%=@note.id%>');">Delete This Note</a>
 
 <script type="text/javascript">
 	// updates a note
-	$('edit_note_<%=@note.id%>').submit(function() {
-		var path = $('edit_note_<%=@note.id%>').attr("action");
-		alert(path);
-		var params = $('edit_note_<%=@note.id%>').serialize();
+	$('#note_content_form').submit(function() {
+		var path = $('#note_content_form').attr("action");
+		var params = $('#note_content_form').serialize();
 		$.post(path, params, function(data) {
 			if(data.success){
-				alert("Success");
+			
 			}
 			else
 			{
