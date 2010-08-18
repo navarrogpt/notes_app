@@ -1,16 +1,31 @@
-<%=@note.title%><br/>
-<%=@note.created_at.strftime("%A %d %B %Y %H:%M") if @note.created_at %>
+<div id="note-editor-title">
+	<%=@note.title%>
+</div>
 
-<% semantic_form_for @note, :html => { :id => 'update_content_form'} do |form| %>
-	<%= form.input :content, :as => :ckeditor %>
-	<button id="note_submit" onclick="return updateNote(this.form);">Update</button>
-<% end %>
+<div id="note-editor-toolbar">
+</div>
+
+<div id="note-editor-date-time">
+	<%=@note.created_at.strftime("%A %d %B %Y %H:%M") if @note.created_at %>
+</div>
+
+<div id="note-editor-editor">
+	<% semantic_form_for @note, :html => { :id => 'update_content_form'} do |form| %>
+		<%= form.input :content %>
+		<button id="note_submit" onclick="return updateNote(this.form);">Update</button>
+	<% end %>
+</div>
 
 <div id="edit-status"></div>
 
-<a href="/notes/destroy/<%=@note.id%>" onclick="return deleteNote(this, '#notes-listing-item-<%=@note.id%>');">Delete This Note</a>
+<div id="note-editor-delete">
+	<a href="/notes/destroy/<%=@note.id%>" onclick="return deleteNote(this, '#notes-listing-item-<%=@note.id%>');">
+		<img src="/images/delete_this_note_button.gif" name="delete_note" class="header-button-set"/>
+	</a>
+</div>
 
 <script type="text/javascript">
+
 	// updates a note
 	function updateNote(form){
 		$('#' + form.id).submit(function() {

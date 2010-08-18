@@ -1,13 +1,15 @@
 <ul id="notes-listing-list">
 <% @notes.each do |note| %>
-	<li id="notes-listing-item-<%=note.id%>" class="notes-listing-list-items">
-	   <div id="show-notes-listing-item-<%=note.id%>">
-		   <a href="/notes/<%=note.id%>/edit" onclick="return openNote(this);"><%=note.title%></a>
-		   <br/>
-		   <%= note.created_at.strftime("%A %d %B %Y") if note.created_at %>
-		   <br/>
-		   <button id="edit-note-title" onclick="return openEditNoteTitle('#edit-notes-listing-item-<%=note.id%>', '#show-notes-listing-item-<%=note.id%>', '#edit_note_<%=note.id%>');">edit</button>
-	   </div>
+	<li id="notes-listing-item-<%=note.id%>" class="notes-listing-list-items" onclick="setAsSelected(this);">
+	   <a href="/notes/<%=note.id%>/edit" onclick="return openNote(this);">
+		   <div id="show-notes-listing-item-<%=note.id%>" class="notes-listing-list-items-div">
+			   <span class="notes-listing-list-items-title"><%=note.title%></span>
+			   <br/>
+			   <span class="notes-listing-list-items-date"><%= note.created_at.strftime("%A %d %B %Y") if note.created_at %></span>
+			   <br/>
+			   <button id="edit-note-title" onclick="return openEditNoteTitle('#edit-notes-listing-item-<%=note.id%>', '#show-notes-listing-item-<%=note.id%>', '#edit_note_<%=note.id%>');">edit</button>
+		   </div>
+	   </a>
 	   <div id="edit-notes-listing-item-<%=note.id%>" style="display:none;">
 		   <% semantic_form_for note do |form| %>
 				<%= form.input :title %>
@@ -19,7 +21,12 @@
 </ul>
 
 <script type="text/javascript">
-	
+	// set item as selected
+	function setAsSelected(obj){
+		$('.notes-listing-list-items-selected').attr('class', 'notes-listing-list-items');
+		$('#' + obj.id).attr('class', 'notes-listing-list-items-selected');
+		
+	}
 	// open edit note title
 	function openEditNoteTitle(edit, show, edit_note_id){
 		$(edit).css('display', 'block');

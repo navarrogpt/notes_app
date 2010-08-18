@@ -1,7 +1,16 @@
 <div id="notes-listing">
 	<div id="notes-listing-header">
-		<div id="button-add"><a href="#" onclick="return openCreateNote();">+</a></div>
-		<span>Notes</span>
+		<div id="button-add">
+			<a href="#" onclick="return openCreateNote();">
+			  <img src="/images/add_button.gif" name="add_note" class="header-button-set"/>
+			</a>
+		</div>
+		<div id="header-title">
+			<span>Notes</span>
+		</div>
+		<div id="button-edit">
+			<img src="/images/add_button.gif" name="add_note" class="header-button-set"/>
+		</div>
 	</div>
 	
 	<div id="notes-listing-body">
@@ -18,23 +27,23 @@
 </div>
 
 
-
-<div id="notes-content">
-
+<div id="notes-editor">
+	<div id="notes-content">
+	</div>
 </div>
 
 <script type="text/javascript">
-
+	
     // opens the Create Note panel
     function openCreateNote(){
 	    $('#notes-listing-new').css('display', 'block');
-		$('#button-add').css('display', 'none');
+		$('#button-add').css('visibility', 'hidden');
 	}
 	
 	// closes the Create Note panel
 	function closeCreateNote(){
 	    $('#notes-listing-new').css('display', 'none');	
-		$('#button-add').css('display', 'block');
+		$('#button-add').css('visibility', 'visible');
 	}
 	
 	// opens a note
@@ -75,7 +84,7 @@
 				$('#note_title').val("");
 				$.get('/notes/list', function(html) {
 					$('#notes-listing-body').html(html);
-					$('#button-add').css('display', 'block');
+					$('#button-add').css('visibility', 'visible');
 				});
 			}
 			else

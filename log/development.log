@@ -15823,3 +15823,3338 @@ Rendering template within layouts/notes
 Rendering notes/index
 Rendered notes/_list (121.0ms)
 Completed in 265ms (View: 188, DB: 7) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 19:10:47) [GET]
+  [4;36;1mNote Load (39.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (489.0ms)
+Completed in 964ms (View: 863, DB: 39) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 19:11:05) [GET]
+  [4;35;1mNote Load (8.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (107.0ms)
+Completed in 221ms (View: 158, DB: 8) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 19:11:29) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (153.0ms)
+Completed in 252ms (View: 193, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 19:11:49) [GET]
+  [4;35;1mNote Load (8.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (128.0ms)
+Completed in 242ms (View: 163, DB: 8) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 19:13:51) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (104.0ms)
+Completed in 192ms (View: 135, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 19:17:32) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (838.0ms)
+Completed in 998ms (View: 873, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 19:50:31) [GET]
+  [4;36;1mNote Load (17.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (193.0ms)
+Completed in 322ms (View: 229, DB: 17) | 200 OK [http://localhost/notes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-18 19:50:34) [GET]
+
+ActionController::RoutingError (No route matches "/public/images/notes_listing.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 19:50:41) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (109.0ms)
+Completed in 204ms (View: 140, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-18 19:50:43) [GET]
+
+ActionController::RoutingError (No route matches "/public/images/notes_listing.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 19:51:20) [GET]
+  [4;36;1mNote Load (9.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (115.0ms)
+Completed in 210ms (View: 152, DB: 9) | 200 OK [http://localhost/notes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-18 19:51:23) [GET]
+
+ActionController::RoutingError (No route matches "/public/images/notes_listing.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 19:52:28) [GET]
+  [4;35;1mNote Load (6.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (132.0ms)
+Completed in 224ms (View: 165, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 19:53:40) [GET]
+  [4;36;1mNote Load (9.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (195.0ms)
+Completed in 297ms (View: 229, DB: 9) | 200 OK [http://localhost/notes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-18 19:53:42) [GET]
+
+ActionController::RoutingError (No route matches "/public/images/notes_listing.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 20:01:05) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (130.0ms)
+Completed in 283ms (View: 171, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 20:02:35) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (129.0ms)
+Completed in 227ms (View: 163, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 20:02:47) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (106.0ms)
+Completed in 200ms (View: 143, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 20:03:26) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (353.0ms)
+Completed in 443ms (View: 387, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 20:03:52) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (107.0ms)
+Completed in 204ms (View: 140, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 20:05:18) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (150.0ms)
+Completed in 265ms (View: 191, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 20:08:08) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (182.0ms)
+Completed in 278ms (View: 216, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 20:13:13) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (117.0ms)
+Completed in 223ms (View: 153, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 20:16:08) [GET]
+  [4;35;1mNote Load (4.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (117.0ms)
+Completed in 225ms (View: 167, DB: 4) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 20:17:05) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (8171.0ms)
+Completed in 8264ms (View: 8205, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 20:17:25) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (144.0ms)
+Completed in 256ms (View: 183, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 20:19:21) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (117.0ms)
+Completed in 318ms (View: 248, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 20:19:34) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (131.0ms)
+Completed in 234ms (View: 168, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 20:19:59) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (58.0ms)
+Completed in 284ms (View: 78, DB: 1) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 20:20:03) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (109.0ms)
+Completed in 199ms (View: 142, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 20:20:43) [GET]
+  [4;36;1mNote Load (7.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (120.0ms)
+Completed in 232ms (View: 152, DB: 7) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 20:21:11) [GET]
+  [4;35;1mNote Load (6.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (132.0ms)
+Completed in 254ms (View: 174, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 20:21:46) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (118.0ms)
+Completed in 234ms (View: 152, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 20:22:17) [GET]
+  [4;35;1mNote Load (4.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (105.0ms)
+Completed in 207ms (View: 138, DB: 4) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 20:22:24) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 2) [0m
+Rendered notes/_edit (33.0ms)
+Completed in 93ms (View: 38, DB: 2) | 200 OK [http://localhost/notes/2/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 20:22:28) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mNote Load (1.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 3) [0m
+Rendered notes/_edit (37.0ms)
+Completed in 94ms (View: 41, DB: 1) | 200 OK [http://localhost/notes/3/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 20:22:33) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 4) [0m
+Rendered notes/_edit (34.0ms)
+Completed in 98ms (View: 39, DB: 1) | 200 OK [http://localhost/notes/4/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 20:22:36) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mNote Load (1.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 5) [0m
+Rendered notes/_edit (153.0ms)
+Completed in 209ms (View: 158, DB: 1) | 200 OK [http://localhost/notes/5/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 20:23:38) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (144.0ms)
+Completed in 300ms (View: 229, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#update (for 127.0.0.1 at 2010-08-18 20:23:52) [PUT]
+  Parameters: {"authenticity_token"=>"ig8Lc0vH5WMyhQGESADBPQnMESD7mDWwsGgUhgyD4to=", "id"=>"1", "note"=>{"title"=>"Report on Africa"}}
+  [4;35;1mNote Load (1.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Completed in 85ms (View: 12, DB: 1) | 200 OK [http://localhost/notes/1]
+
+
+Processing NotesController#list (for 127.0.0.1 at 2010-08-18 20:23:53) [GET]
+  [4;36;1mNote Load (4.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendered notes/_list (99.0ms)
+Completed in 157ms (View: 103, DB: 4) | 200 OK [http://localhost/notes/list]
+
+
+Processing NotesController#update (for 127.0.0.1 at 2010-08-18 20:25:13) [PUT]
+  Parameters: {"authenticity_token"=>"ig8Lc0vH5WMyhQGESADBPQnMESD7mDWwsGgUhgyD4to=", "id"=>"1", "note"=>{"title"=>"Report on Africa"}}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Completed in 69ms (View: 13, DB: 2) | 200 OK [http://localhost/notes/1]
+
+
+Processing NotesController#list (for 127.0.0.1 at 2010-08-18 20:25:14) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendered notes/_list (106.0ms)
+Completed in 169ms (View: 112, DB: 5) | 200 OK [http://localhost/notes/list]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 20:29:56) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (132.0ms)
+Completed in 285ms (View: 170, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 20:35:02) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (122.0ms)
+Completed in 251ms (View: 163, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 20:35:11) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (113.0ms)
+Completed in 215ms (View: 145, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 20:36:45) [GET]
+  [4;36;1mNote Load (220.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (161.0ms)
+Completed in 508ms (View: 236, DB: 220) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 20:39:24) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (108.0ms)
+Completed in 207ms (View: 142, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-18 20:39:29) [GET]
+
+ActionController::RoutingError (No route matches "/images/notes_content.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 20:39:50) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (164.0ms)
+Completed in 261ms (View: 206, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-18 20:39:53) [GET]
+
+ActionController::RoutingError (No route matches "/images/notes_content.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 20:40:00) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (46.0ms)
+Completed in 121ms (View: 70, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 20:40:19) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (101.0ms)
+Completed in 192ms (View: 134, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-18 20:40:23) [GET]
+
+ActionController::RoutingError (No route matches "/images/notes_content.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 20:40:37) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (273.0ms)
+Completed in 636ms (View: 582, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-18 20:40:41) [GET]
+
+ActionController::RoutingError (No route matches "/images/notes_content.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 20:40:53) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (143.0ms)
+Completed in 243ms (View: 176, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-18 20:40:56) [GET]
+
+ActionController::RoutingError (No route matches "/images/notes_content.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 20:41:13) [GET]
+  [4;35;1mNote Load (6.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (124.0ms)
+Completed in 225ms (View: 159, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 20:41:45) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (106.0ms)
+Completed in 211ms (View: 140, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 20:55:45) [GET]
+  [4;35;1mNote Load (11.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (115.0ms)
+Completed in 217ms (View: 154, DB: 11) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 20:57:20) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (106.0ms)
+Completed in 199ms (View: 137, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 20:58:12) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (130.0ms)
+Completed in 248ms (View: 177, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 20:59:01) [GET]
+  [4;36;1mNote Load (7.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (121.0ms)
+Completed in 245ms (View: 156, DB: 7) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 20:59:23) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (108.0ms)
+Completed in 206ms (View: 140, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 20:59:33) [GET]
+  [4;36;1mNote Load (10.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (106.0ms)
+Completed in 200ms (View: 137, DB: 10) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 20:59:43) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (109.0ms)
+Completed in 198ms (View: 139, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:00:00) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (181.0ms)
+Completed in 285ms (View: 226, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:00:17) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (108.0ms)
+Completed in 202ms (View: 141, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:05:42) [GET]
+  [4;36;1mNote Load (12.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (133.0ms)
+Completed in 232ms (View: 166, DB: 12) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:06:10) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (123.0ms)
+Completed in 217ms (View: 155, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:06:18) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (322.0ms)
+Completed in 418ms (View: 351, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:07:12) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (128.0ms)
+Completed in 233ms (View: 168, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:09:36) [GET]
+  [4;36;1mNote Load (4.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (122.0ms)
+Completed in 215ms (View: 157, DB: 4) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:11:09) [GET]
+  [4;35;1mNote Load (8.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (340.0ms)
+Completed in 456ms (View: 377, DB: 8) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:12:59) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (130.0ms)
+Completed in 239ms (View: 178, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:13:48) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (155.0ms)
+Completed in 287ms (View: 219, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:14:07) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (108.0ms)
+Completed in 216ms (View: 148, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:14:27) [GET]
+  [4;35;1mNote Load (6.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (118.0ms)
+Completed in 215ms (View: 157, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:14:49) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (134.0ms)
+Completed in 229ms (View: 167, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:15:06) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (116.0ms)
+Completed in 218ms (View: 151, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:16:13) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (166.0ms)
+Completed in 271ms (View: 215, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:16:32) [GET]
+  [4;35;1mNote Load (6.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (112.0ms)
+Completed in 211ms (View: 148, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:17:03) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (148.0ms)
+Completed in 268ms (View: 191, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:17:27) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (107.0ms)
+Completed in 206ms (View: 145, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:18:47) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (147.0ms)
+Completed in 244ms (View: 183, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:19:48) [GET]
+  [4;35;1mNote Load (7.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (124.0ms)
+Completed in 230ms (View: 163, DB: 7) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:20:16) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (235.0ms)
+Completed in 396ms (View: 281, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:21:45) [GET]
+  [4;35;1mNote Load (6.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (120.0ms)
+Completed in 230ms (View: 156, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:22:24) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (103.0ms)
+Completed in 211ms (View: 137, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:22:48) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (118.0ms)
+Completed in 220ms (View: 156, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:23:11) [GET]
+  [4;36;1mNote Load (7.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (221.0ms)
+Completed in 450ms (View: 332, DB: 7) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:23:31) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (114.0ms)
+Completed in 221ms (View: 153, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:23:45) [GET]
+  [4;36;1mNote Load (7.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (113.0ms)
+Completed in 218ms (View: 155, DB: 7) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:24:57) [GET]
+  [4;35;1mNote Load (6.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (129.0ms)
+Completed in 237ms (View: 180, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:25:19) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (108.0ms)
+Completed in 199ms (View: 141, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:25:48) [GET]
+  [4;35;1mNote Load (7.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (132.0ms)
+Completed in 227ms (View: 169, DB: 7) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:26:33) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (109.0ms)
+Completed in 215ms (View: 141, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:27:13) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (112.0ms)
+Completed in 207ms (View: 145, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:28:05) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (106.0ms)
+Completed in 199ms (View: 140, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:28:38) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (111.0ms)
+Completed in 214ms (View: 146, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:29:01) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (107.0ms)
+Completed in 196ms (View: 139, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:29:27) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (102.0ms)
+Completed in 190ms (View: 136, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:30:03) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (131.0ms)
+Completed in 268ms (View: 170, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:31:51) [GET]
+  [4;35;1mNote Load (16.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (119.0ms)
+Completed in 707ms (View: 157, DB: 16) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:35:05) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (108.0ms)
+Completed in 199ms (View: 139, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#update (for 127.0.0.1 at 2010-08-18 21:35:17) [PUT]
+  Parameters: {"authenticity_token"=>"ig8Lc0vH5WMyhQGESADBPQnMESD7mDWwsGgUhgyD4to=", "id"=>"51", "note"=>{"title"=>"New Post"}}
+  [4;35;1mNote Load (6.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 51) [0m
+Completed in 85ms (View: 14, DB: 6) | 200 OK [http://localhost/notes/51]
+
+
+Processing NotesController#list (for 127.0.0.1 at 2010-08-18 21:35:19) [GET]
+  [4;36;1mNote Load (11.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendered notes/_list (100.0ms)
+Completed in 163ms (View: 106, DB: 11) | 200 OK [http://localhost/notes/list]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:37:43) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+ERROR: compiling _run_erb_app47views47notes47index46html46erb RAISED compile error
+c:/ruby/rails_projects/notes_app/app/views/notes/index.html.erb:14: syntax error, unexpected tASSOC, expecting tCOLON2 or '[' or '.'
+@output_buffer.concat "\t\t\t\t"; @output_buffer.concat(( form.buttons, :label => 'Save' ).to_s); @output_buffer.concat "  \n"
+                                                                                 ^
+Function body:           def _run_erb_app47views47notes47index46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<div id=\"notes-listing\">\n"
+@output_buffer.concat "\t<div id=\"notes-listing-header\">\n"
+@output_buffer.concat "\t\t<div id=\"button-add\"><a href=\"#\" onclick=\"return openCreateNote();\">+</a></div>\n"
+@output_buffer.concat "\t\t<span>Notes</span>\n"
+@output_buffer.concat "\t</div>\n"
+@output_buffer.concat "\t\n"
+@output_buffer.concat "\t<div id=\"notes-listing-body\">\n"
+@output_buffer.concat "\t    "; @output_buffer.concat(( render :partial => "list" ).to_s); @output_buffer.concat "\t\t\n"
+@output_buffer.concat "\t</div>\n"
+@output_buffer.concat "\t<div id=\"notes-listing-new\" style=\"display:none;\">\n"
+@output_buffer.concat "\t\t\t<a href=\"#\" onclick=\"return closeCreateNote();\">x</a>\n"
+@output_buffer.concat "\t\t\t";  semantic_form_for @note do |form| ; @output_buffer.concat "\n"
+@output_buffer.concat "\t\t\t\t"; @output_buffer.concat(( form.input :title, :required => true ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\t\t\t\t"; @output_buffer.concat(( form.buttons, :label => 'Save' ).to_s); @output_buffer.concat "  \n"
+@output_buffer.concat "\t\t\t";  end ; @output_buffer.concat "\n"
+@output_buffer.concat "\t</div>\n"
+@output_buffer.concat "\t\n"
+@output_buffer.concat "</div>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<div id=\"notes-editor\">\n"
+@output_buffer.concat "    hello\n"
+@output_buffer.concat "\t<div id=\"notes-content\">\n"
+@output_buffer.concat "\t</div>\n"
+@output_buffer.concat "</div>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<script type=\"text/javascript\">\n"
+@output_buffer.concat "\t\n"
+@output_buffer.concat "    // opens the Create Note panel\n"
+@output_buffer.concat "    function openCreateNote(){\n"
+@output_buffer.concat "\t    $('#notes-listing-new').css('display', 'block');\n"
+@output_buffer.concat "\t\t$('#button-add').css('display', 'none');\n"
+@output_buffer.concat "\t}\n"
+@output_buffer.concat "\t\n"
+@output_buffer.concat "\t// closes the Create Note panel\n"
+@output_buffer.concat "\tfunction closeCreateNote(){\n"
+@output_buffer.concat "\t    $('#notes-listing-new').css('display', 'none');\t\n"
+@output_buffer.concat "\t\t$('#button-add').css('display', 'block');\n"
+@output_buffer.concat "\t}\n"
+@output_buffer.concat "\t\n"
+@output_buffer.concat "\t// opens a note\n"
+@output_buffer.concat "\tfunction openNote(link, callback){\n"
+@output_buffer.concat "\t\tvar panel = $(\"#notes-content\");\n"
+@output_buffer.concat "\t\t\n"
+@output_buffer.concat "\t\t$.get(link.href, function(html) {\n"
+@output_buffer.concat "\t\t\tpanel.html(html);\n"
+@output_buffer.concat "\t\t});\n"
+@output_buffer.concat "\t\treturn false;\n"
+@output_buffer.concat "\t}\n"
+@output_buffer.concat "\t\n"
+@output_buffer.concat "\t// deletes a note\n"
+@output_buffer.concat "\tfunction deleteNote(link, id) {\n"
+@output_buffer.concat "\t\tvar answer = confirm (\"Delete this note?\")\n"
+@output_buffer.concat "\t\tif(answer)\n"
+@output_buffer.concat "\t\t{\n"
+@output_buffer.concat "\t\t\t$.getJSON(link.href, function(data) {\n"
+@output_buffer.concat "\t\t\t\tif (data.success) {\n"
+@output_buffer.concat "\t\t\t\t\t$(id).css('display', 'none');\n"
+@output_buffer.concat "\t\t\t\t\t$('#notes-content').html('');\t\t\n"
+@output_buffer.concat "\t\t\t\t}\n"
+@output_buffer.concat "\t\t\t\telse {\t\t\t\n"
+@output_buffer.concat "\t\t\t\t}\n"
+@output_buffer.concat "\t\t\t});\n"
+@output_buffer.concat "\t\t}\n"
+@output_buffer.concat "\t\treturn false;\n"
+@output_buffer.concat "\t}\n"
+@output_buffer.concat "\t\n"
+@output_buffer.concat "\t// creates a note\n"
+@output_buffer.concat "\t$(\"#new_note\").submit(function() {\n"
+@output_buffer.concat "\t    \n"
+@output_buffer.concat "\t\tvar path = $(\"#new_note\").attr(\"action\");\n"
+@output_buffer.concat "\t\tvar params = $(\"#new_note\").serialize();\n"
+@output_buffer.concat "\t\t$.post(path, params, function(data) {\n"
+@output_buffer.concat "\t\t\tif(data.success){\n"
+@output_buffer.concat "\t\t\t\t$('#notes-listing-new').css('display', 'none');\n"
+@output_buffer.concat "\t\t\t\t$('#note_title').val(\"\");\n"
+@output_buffer.concat "\t\t\t\t$.get('/notes/list', function(html) {\n"
+@output_buffer.concat "\t\t\t\t\t$('#notes-listing-body').html(html);\n"
+@output_buffer.concat "\t\t\t\t\t$('#button-add').css('display', 'block');\n"
+@output_buffer.concat "\t\t\t\t});\n"
+@output_buffer.concat "\t\t\t}\n"
+@output_buffer.concat "\t\t\telse\n"
+@output_buffer.concat "\t\t\t{\n"
+@output_buffer.concat "\t\t\t\t\n"
+@output_buffer.concat "\t\t\t}\n"
+@output_buffer.concat "\t\t}, \"json\");\n"
+@output_buffer.concat "\t\treturn false;\n"
+@output_buffer.concat "    });\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "\t\n"
+@output_buffer.concat "</script>"; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: c:/ruby/rails_projects/notes_app/app/views/notes/index.html.erb:94:in `compile!'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:61:in `compile'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:28:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/template.rb:205:in `render_template'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:265:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:348:in `_render_with_layout'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:262:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1250:in `render_for_file'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:942:in `render_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/mime_responds.rb:135:in `send'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/mime_responds.rb:135:in `custom'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/mime_responds.rb:179:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/mime_responds.rb:179:in `respond'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/mime_responds.rb:173:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/mime_responds.rb:173:in `respond'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/mime_responds.rb:107:in `respond_to'
+c:/ruby/rails_projects/notes_app/app/controllers/notes_controller.rb:8:in `index'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `send'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `perform_action_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+c:/ruby/rails_projects/notes_app/app/views/notes/index.html.erb:14: syntax error, unexpected tASSOC, expecting tCOLON2 or '[' or '.'
+@output_buffer.concat "\t\t\t\t"; @output_buffer.concat(( form.buttons, :label => 'Save' ).to_s); @output_buffer.concat "  \n"
+                                                                                 ^) on line #14 of app/views/notes/index.html.erb:
+11: 			<a href="#" onclick="return closeCreateNote();">x</a>
+12: 			<% semantic_form_for @note do |form| %>
+13: 				<%= form.input :title, :required => true %>
+14: 				<%= form.buttons, :label => 'Save' %>  
+15: 			<% end %>
+16: 	</div>
+17: 	
+
+    app/views/notes/index.html.erb:94:in `compile!'
+    app/controllers/notes_controller.rb:8:in `index'
+
+Rendered rescues/_trace (492.0ms)
+Rendered rescues/_request_and_response (43.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:37:58) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (143.0ms)
+Completed in 328ms (View: 271, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:38:22) [GET]
+  [4;35;1mNote Load (4.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (105.0ms)
+Completed in 229ms (View: 172, DB: 4) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:45:19) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (116.0ms)
+Completed in 242ms (View: 187, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:48:52) [GET]
+  [4;35;1mNote Load (12.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (120.0ms)
+Completed in 309ms (View: 205, DB: 12) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:49:27) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (120.0ms)
+Completed in 233ms (View: 153, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:50:52) [GET]
+  [4;35;1mNote Load (10.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (308.0ms)
+Completed in 482ms (View: 381, DB: 10) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:51:12) [GET]
+  [4;36;1mNote Load (11.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (103.0ms)
+Completed in 205ms (View: 137, DB: 11) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:51:47) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (126.0ms)
+Completed in 245ms (View: 174, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:52:03) [GET]
+  [4;36;1mNote Load (4.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (442.0ms)
+Completed in 527ms (View: 474, DB: 4) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:52:31) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (287.0ms)
+Completed in 393ms (View: 329, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:52:56) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (113.0ms)
+Completed in 224ms (View: 154, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:53:11) [GET]
+  [4;35;1mNote Load (7.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (125.0ms)
+Completed in 475ms (View: 405, DB: 7) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:53:58) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (123.0ms)
+Completed in 221ms (View: 158, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:54:21) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (147.0ms)
+Completed in 250ms (View: 186, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:54:43) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (113.0ms)
+Completed in 214ms (View: 153, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:55:04) [GET]
+  [4;35;1mNote Load (4.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (106.0ms)
+Completed in 190ms (View: 136, DB: 4) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:55:47) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (122.0ms)
+Completed in 211ms (View: 158, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:57:16) [GET]
+  [4;35;1mNote Load (6.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (134.0ms)
+Completed in 235ms (View: 178, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:58:00) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (122.0ms)
+Completed in 211ms (View: 155, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:58:20) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (109.0ms)
+Completed in 200ms (View: 146, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:58:35) [GET]
+  [4;36;1mNote Load (8.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (136.0ms)
+Completed in 255ms (View: 175, DB: 8) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:58:52) [GET]
+  [4;35;1mNote Load (7.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (132.0ms)
+Completed in 231ms (View: 171, DB: 7) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:59:15) [GET]
+  [4;36;1mNote Load (4.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (124.0ms)
+Completed in 224ms (View: 159, DB: 4) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 21:59:35) [GET]
+  [4;35;1mNote Load (6.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (131.0ms)
+Completed in 242ms (View: 169, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:00:03) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (141.0ms)
+Completed in 273ms (View: 191, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:00:14) [GET]
+  [4;35;1mNote Load (8.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (108.0ms)
+Completed in 220ms (View: 142, DB: 8) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:01:32) [GET]
+  [4;36;1mNote Load (7.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (148.0ms)
+Completed in 310ms (View: 188, DB: 7) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:01:50) [GET]
+  [4;35;1mNote Load (4.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (128.0ms)
+Completed in 233ms (View: 164, DB: 4) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:01:57) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (105.0ms)
+Completed in 218ms (View: 141, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:02:18) [GET]
+  [4;35;1mNote Load (6.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (323.0ms)
+Completed in 462ms (View: 381, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:02:47) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (110.0ms)
+Completed in 203ms (View: 140, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:03:01) [GET]
+  [4;35;1mNote Load (12.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (134.0ms)
+Completed in 272ms (View: 199, DB: 12) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:03:17) [GET]
+  [4;36;1mNote Load (13.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (117.0ms)
+Completed in 230ms (View: 161, DB: 13) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:03:39) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (106.0ms)
+Completed in 211ms (View: 153, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:04:02) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (143.0ms)
+Completed in 258ms (View: 175, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:06:11) [GET]
+  [4;35;1mNote Load (26.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (139.0ms)
+Completed in 383ms (View: 253, DB: 26) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:06:23) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (131.0ms)
+Completed in 256ms (View: 169, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:06:33) [GET]
+  [4;35;1mNote Load (6.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (126.0ms)
+Completed in 229ms (View: 161, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:07:12) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (151.0ms)
+Completed in 271ms (View: 187, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:07:21) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (140.0ms)
+Completed in 261ms (View: 186, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:07:36) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (362.0ms)
+Completed in 542ms (View: 444, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:07:49) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (175.0ms)
+Completed in 289ms (View: 223, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:08:28) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (133.0ms)
+Completed in 246ms (View: 171, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:09:50) [GET]
+  [4;35;1mNote Load (9.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (109.0ms)
+Completed in 237ms (View: 174, DB: 9) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#create (for 127.0.0.1 at 2010-08-18 22:10:08) [POST]
+  Parameters: {"authenticity_token"=>"ig8Lc0vH5WMyhQGESADBPQnMESD7mDWwsGgUhgyD4to=", "note"=>{"title"=>"Another Post"}}
+  [4;36;1mNote Create (4.0ms)[0m   [0;1mINSERT INTO "notes" ("updated_at", "title", "content", "created_at") VALUES('2010-08-18 14:10:08', 'Another Post', NULL, '2010-08-18 14:10:08')[0m
+Completed in 435ms (View: 16, DB: 4) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#list (for 127.0.0.1 at 2010-08-18 22:10:08) [GET]
+  [4;35;1mNote Load (8.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendered notes/_list (127.0ms)
+Completed in 196ms (View: 132, DB: 8) | 200 OK [http://localhost/notes/list]
+
+
+Processing NotesController#destroy (for 127.0.0.1 at 2010-08-18 22:10:19) [GET]
+  Parameters: {"id"=>"52"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 52) [0m
+  [4;35;1mNote Destroy (31.0ms)[0m   [0mDELETE FROM "notes" WHERE "id" = 52[0m
+Completed in 159ms (View: 55, DB: 33) | 200 OK [http://localhost/notes/destroy/52]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:11:07) [GET]
+  [4;36;1mNote Load (12.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (117.0ms)
+Completed in 275ms (View: 160, DB: 12) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:13:10) [GET]
+  [4;35;1mNote Load (6.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (113.0ms)
+Completed in 208ms (View: 147, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:16:07) [GET]
+  [4;36;1mNote Load (8.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (178.0ms)
+Completed in 304ms (View: 242, DB: 8) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:17:28) [GET]
+  [4;35;1mNote Load (4.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (117.0ms)
+Completed in 221ms (View: 155, DB: 4) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:17:43) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (114.0ms)
+Completed in 216ms (View: 147, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:17:57) [GET]
+  [4;35;1mNote Load (6.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (163.0ms)
+Completed in 303ms (View: 203, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:18:10) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (372.0ms)
+Completed in 588ms (View: 405, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:18:18) [GET]
+  [4;35;1mNote Load (6.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (102.0ms)
+Completed in 206ms (View: 135, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:18:28) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (107.0ms)
+Completed in 198ms (View: 141, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:18:37) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (377.0ms)
+Completed in 505ms (View: 417, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:18:48) [GET]
+  [4;36;1mNote Load (10.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (123.0ms)
+Completed in 235ms (View: 161, DB: 10) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:20:32) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (147.0ms)
+Completed in 252ms (View: 186, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:21:07) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (312.0ms)
+Completed in 412ms (View: 344, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:22:37) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (113.0ms)
+Completed in 265ms (View: 169, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:23:01) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (151.0ms)
+Completed in 256ms (View: 198, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:23:18) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (364.0ms)
+Completed in 502ms (View: 405, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:23:34) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (128.0ms)
+Completed in 243ms (View: 168, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:23:59) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (107.0ms)
+Completed in 201ms (View: 138, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:24:33) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (165.0ms)
+Completed in 468ms (View: 391, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:25:35) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (110.0ms)
+Completed in 228ms (View: 148, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:26:58) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (146.0ms)
+Completed in 268ms (View: 200, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 22:48:49) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (73.0ms)
+Completed in 135ms (View: 81, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:49:11) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (129.0ms)
+Completed in 233ms (View: 177, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:50:21) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (265.0ms)
+Completed in 382ms (View: 328, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:51:16) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (337.0ms)
+Completed in 438ms (View: 384, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:51:21) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (103.0ms)
+Completed in 182ms (View: 130, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:51:27) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (100.0ms)
+Completed in 203ms (View: 132, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:52:22) [GET]
+  [4;35;1mNote Load (4.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (313.0ms)
+Completed in 422ms (View: 366, DB: 4) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 22:52:27) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (31.0ms)
+Completed in 83ms (View: 36, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 22:52:33) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mNote Load (1.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 2) [0m
+Rendered notes/_edit (31.0ms)
+Completed in 83ms (View: 35, DB: 1) | 200 OK [http://localhost/notes/2/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 22:52:43) [GET]
+  Parameters: {"id"=>"51"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 51) [0m
+Rendered notes/_edit (67.0ms)
+Completed in 121ms (View: 72, DB: 2) | 200 OK [http://localhost/notes/51/edit]
+
+
+Processing NotesController#destroy (for 127.0.0.1 at 2010-08-18 22:52:48) [GET]
+  Parameters: {"id"=>"51"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 51) [0m
+  [4;36;1mNote Destroy (3.0ms)[0m   [0;1mDELETE FROM "notes" WHERE "id" = 51[0m
+Completed in 152ms (View: 37, DB: 5) | 200 OK [http://localhost/notes/destroy/51]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:54:12) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (158.0ms)
+Completed in 275ms (View: 206, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:55:32) [GET]
+  [4;36;1mNote Load (4.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (144.0ms)
+Completed in 271ms (View: 210, DB: 4) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:57:18) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (121.0ms)
+Completed in 236ms (View: 171, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:59:03) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (147.0ms)
+Completed in 487ms (View: 431, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:59:17) [GET]
+  [4;35;1mNote Load (14.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (112.0ms)
+Completed in 289ms (View: 147, DB: 14) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 22:59:24) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (38.0ms)
+Completed in 97ms (View: 45, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 22:59:56) [GET]
+  [4;35;1mNote Load (4.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (141.0ms)
+Completed in 514ms (View: 448, DB: 4) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:00:03) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (37.0ms)
+Completed in 97ms (View: 43, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 23:02:42) [GET]
+  [4;35;1mNote Load (6.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (132.0ms)
+Completed in 291ms (View: 224, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:02:49) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (35.0ms)
+Completed in 278ms (View: 41, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 23:03:32) [GET]
+  [4;35;1mNote Load (8.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (108.0ms)
+Completed in 236ms (View: 158, DB: 8) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:03:37) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (37.0ms)
+Completed in 107ms (View: 45, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 23:04:28) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (118.0ms)
+Completed in 262ms (View: 204, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:04:33) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (40.0ms)
+Completed in 100ms (View: 45, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 23:04:46) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (157.0ms)
+Completed in 289ms (View: 213, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:04:51) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (35.0ms)
+Completed in 92ms (View: 41, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 23:05:35) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (339.0ms)
+Completed in 454ms (View: 396, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:05:39) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (35.0ms)
+Completed in 92ms (View: 41, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 23:07:14) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (113.0ms)
+Completed in 220ms (View: 162, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:07:18) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (37.0ms)
+Completed in 93ms (View: 42, DB: 1) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 23:10:41) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (454.0ms)
+Completed in 830ms (View: 755, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:11:22) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (36.0ms)
+Completed in 99ms (View: 41, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 23:17:29) [GET]
+  [4;35;1mNote Load (4.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (106.0ms)
+Completed in 208ms (View: 145, DB: 4) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:17:35) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (70.0ms)
+Completed in 123ms (View: 75, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 23:18:32) [GET]
+  [4;35;1mNote Load (6.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (118.0ms)
+Completed in 542ms (View: 370, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:18:41) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (32.0ms)
+Completed in 88ms (View: 37, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 23:19:12) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (132.0ms)
+Completed in 278ms (View: 174, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:19:37) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (44.0ms)
+Completed in 118ms (View: 51, DB: 5) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 23:24:08) [GET]
+  [4;35;1mNote Load (6.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (116.0ms)
+Completed in 212ms (View: 150, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:24:12) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (52.0ms)
+Completed in 110ms (View: 56, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:24:48) [GET]
+  Parameters: {"id"=>"37"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 37) [0m
+Rendered notes/_edit (34.0ms)
+Completed in 89ms (View: 39, DB: 2) | 200 OK [http://localhost/notes/37/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 23:25:10) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (97.0ms)
+Completed in 198ms (View: 127, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:25:23) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 5) [0m
+Rendered notes/_edit (34.0ms)
+Completed in 86ms (View: 38, DB: 2) | 200 OK [http://localhost/notes/5/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 23:26:13) [GET]
+  [4;36;1mNote Load (9.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (98.0ms)
+Completed in 201ms (View: 128, DB: 9) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:26:19) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (33.0ms)
+Completed in 87ms (View: 38, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 23:27:01) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (104.0ms)
+Completed in 195ms (View: 136, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:27:06) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (39.0ms)
+Completed in 97ms (View: 45, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 23:27:41) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (184.0ms)
+Completed in 305ms (View: 236, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:27:49) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (36.0ms)
+Completed in 93ms (View: 41, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 23:28:33) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (123.0ms)
+Completed in 221ms (View: 158, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 23:32:21) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (143.0ms)
+Completed in 301ms (View: 188, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:32:51) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (34.0ms)
+Completed in 94ms (View: 38, DB: 1) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 23:33:47) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (147.0ms)
+Completed in 354ms (View: 245, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:34:13) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (32.0ms)
+Completed in 86ms (View: 38, DB: 1) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:34:20) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (35.0ms)
+Completed in 91ms (View: 40, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 23:38:25) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (158.0ms)
+Completed in 331ms (View: 208, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:38:47) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (1.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (34.0ms)
+Completed in 88ms (View: 39, DB: 1) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:38:49) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 5) [0m
+Rendered notes/_edit (38.0ms)
+Completed in 98ms (View: 43, DB: 2) | 200 OK [http://localhost/notes/5/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 23:38:58) [GET]
+  [4;35;1mNote Load (27.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (432.0ms)
+Completed in 604ms (View: 474, DB: 27) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 23:39:36) [GET]
+  [4;36;1mNote Load (16.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (191.0ms)
+Completed in 406ms (View: 269, DB: 16) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:39:41) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (46.0ms)
+Completed in 125ms (View: 52, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:39:49) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 4) [0m
+Rendered notes/_edit (33.0ms)
+Completed in 87ms (View: 40, DB: 1) | 200 OK [http://localhost/notes/4/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:39:56) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (31.0ms)
+Completed in 86ms (View: 36, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 23:40:14) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (112.0ms)
+Completed in 214ms (View: 157, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:40:18) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (1.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (34.0ms)
+Completed in 99ms (View: 41, DB: 1) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:45:44) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (42.0ms)
+Completed in 111ms (View: 47, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 23:45:46) [GET]
+  [4;35;1mNote Load (4.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (123.0ms)
+Completed in 235ms (View: 177, DB: 4) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:45:55) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (37.0ms)
+Completed in 91ms (View: 41, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:46:00) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 3) [0m
+Rendered notes/_edit (35.0ms)
+Completed in 90ms (View: 40, DB: 2) | 200 OK [http://localhost/notes/3/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:46:04) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 2) [0m
+Rendered notes/_edit (35.0ms)
+Completed in 104ms (View: 47, DB: 2) | 200 OK [http://localhost/notes/2/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:46:06) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mNote Load (1.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 4) [0m
+Rendered notes/_edit (43.0ms)
+Completed in 100ms (View: 48, DB: 1) | 200 OK [http://localhost/notes/4/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:46:07) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 5) [0m
+Rendered notes/_edit (44.0ms)
+Completed in 135ms (View: 50, DB: 2) | 200 OK [http://localhost/notes/5/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:46:07) [GET]
+  Parameters: {"id"=>"37"}
+  [4;35;1mNote Load (15.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 37) [0m
+Rendered notes/_edit (113.0ms)
+Completed in 397ms (View: 119, DB: 15) | 200 OK [http://localhost/notes/37/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 23:46:55) [GET]
+  [4;36;1mNote Load (43.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (202.0ms)
+Completed in 671ms (View: 508, DB: 43) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:47:06) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (35.0ms)
+Completed in 90ms (View: 40, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:47:10) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (49.0ms)
+Completed in 106ms (View: 54, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:47:12) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 2) [0m
+Rendered notes/_edit (37.0ms)
+Completed in 97ms (View: 43, DB: 2) | 200 OK [http://localhost/notes/2/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:47:15) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (33.0ms)
+Completed in 91ms (View: 38, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 23:47:17) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (133.0ms)
+Completed in 256ms (View: 180, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 23:50:35) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (275.0ms)
+Completed in 693ms (View: 611, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:51:16) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (1.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (55.0ms)
+Completed in 117ms (View: 62, DB: 1) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:51:20) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 2) [0m
+Rendered notes/_edit (34.0ms)
+Completed in 136ms (View: 40, DB: 2) | 200 OK [http://localhost/notes/2/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:51:22) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 3) [0m
+Rendered notes/_edit (52.0ms)
+Completed in 168ms (View: 63, DB: 2) | 200 OK [http://localhost/notes/3/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:51:26) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 4) [0m
+Rendered notes/_edit (52.0ms)
+Completed in 129ms (View: 57, DB: 2) | 200 OK [http://localhost/notes/4/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:51:27) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (10.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (56.0ms)
+Completed in 353ms (View: 62, DB: 10) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:51:29) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 2) [0m
+Rendered notes/_edit (62.0ms)
+Completed in 234ms (View: 69, DB: 1) | 200 OK [http://localhost/notes/2/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:51:31) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 3) [0m
+Rendered notes/_edit (44.0ms)
+Completed in 112ms (View: 49, DB: 2) | 200 OK [http://localhost/notes/3/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:51:33) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 4) [0m
+Rendered notes/_edit (39.0ms)
+Completed in 114ms (View: 45, DB: 1) | 200 OK [http://localhost/notes/4/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 23:51:35) [GET]
+  [4;35;1mNote Load (8.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (176.0ms)
+Completed in 324ms (View: 210, DB: 8) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:51:41) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 4) [0m
+Rendered notes/_edit (37.0ms)
+Completed in 141ms (View: 43, DB: 2) | 200 OK [http://localhost/notes/4/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:51:44) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (43.0ms)
+Completed in 105ms (View: 49, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 23:51:46) [GET]
+  [4;36;1mNote Load (7.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (116.0ms)
+Completed in 215ms (View: 154, DB: 7) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:51:54) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (40.0ms)
+Completed in 109ms (View: 47, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:51:56) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 2) [0m
+Rendered notes/_edit (43.0ms)
+Completed in 125ms (View: 47, DB: 1) | 200 OK [http://localhost/notes/2/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:51:57) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mNote Load (3.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 3) [0m
+Rendered notes/_edit (41.0ms)
+Completed in 187ms (View: 50, DB: 3) | 200 OK [http://localhost/notes/3/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:51:59) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 4) [0m
+Rendered notes/_edit (70.0ms)
+Completed in 151ms (View: 78, DB: 2) | 200 OK [http://localhost/notes/4/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:52:05) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 5) [0m
+Rendered notes/_edit (100.0ms)
+Completed in 190ms (View: 107, DB: 2) | 200 OK [http://localhost/notes/5/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 23:52:14) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (131.0ms)
+Completed in 230ms (View: 170, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:52:44) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (66.0ms)
+Completed in 154ms (View: 98, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:52:47) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 2) [0m
+Rendered notes/_edit (132.0ms)
+Completed in 264ms (View: 137, DB: 1) | 200 OK [http://localhost/notes/2/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:52:50) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 3) [0m
+Rendered notes/_edit (38.0ms)
+Completed in 100ms (View: 42, DB: 2) | 200 OK [http://localhost/notes/3/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:53:54) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 2) [0m
+Rendered notes/_edit (43.0ms)
+Completed in 120ms (View: 49, DB: 2) | 200 OK [http://localhost/notes/2/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 23:54:51) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (118.0ms)
+Completed in 246ms (View: 156, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 23:55:35) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (103.0ms)
+Completed in 192ms (View: 134, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:55:48) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (245.0ms)
+Completed in 309ms (View: 254, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:55:51) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mNote Load (4.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 2) [0m
+Rendered notes/_edit (33.0ms)
+Completed in 108ms (View: 40, DB: 4) | 200 OK [http://localhost/notes/2/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:55:54) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 4) [0m
+Rendered notes/_edit (61.0ms)
+Completed in 121ms (View: 68, DB: 2) | 200 OK [http://localhost/notes/4/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 23:55:57) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (179.0ms)
+Completed in 374ms (View: 232, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:56:03) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mNote Load (1.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 5) [0m
+Rendered notes/_edit (40.0ms)
+Completed in 97ms (View: 45, DB: 1) | 200 OK [http://localhost/notes/5/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:56:05) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 4) [0m
+Rendered notes/_edit (37.0ms)
+Completed in 121ms (View: 42, DB: 2) | 200 OK [http://localhost/notes/4/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:56:08) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (39.0ms)
+Completed in 100ms (View: 45, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-18 23:56:13) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 2) [0m
+Rendered notes/_edit (37.0ms)
+Completed in 99ms (View: 42, DB: 2) | 200 OK [http://localhost/notes/2/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-18 23:57:40) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (366.0ms)
+Completed in 467ms (View: 408, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 00:00:04) [GET]
+  [4;36;1mNote Load (7.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (134.0ms)
+Completed in 238ms (View: 170, DB: 7) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 00:01:28) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (107.0ms)
+Completed in 215ms (View: 146, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 00:01:53) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (41.0ms)
+Completed in 104ms (View: 47, DB: 1) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 00:02:19) [GET]
+  [4;35;1mNote Load (9.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (359.0ms)
+Completed in 491ms (View: 396, DB: 9) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 00:02:24) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (251.0ms)
+Completed in 388ms (View: 283, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 00:02:28) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (1.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (76.0ms)
+Completed in 140ms (View: 81, DB: 1) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 00:02:31) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 2) [0m
+Rendered notes/_edit (44.0ms)
+Completed in 110ms (View: 50, DB: 2) | 200 OK [http://localhost/notes/2/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 00:02:32) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mNote Load (9.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 3) [0m
+Rendered notes/_edit (40.0ms)
+Completed in 121ms (View: 46, DB: 9) | 200 OK [http://localhost/notes/3/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 00:02:34) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (64.0ms)
+Completed in 131ms (View: 73, DB: 1) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 00:02:36) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (363.0ms)
+Completed in 472ms (View: 401, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 00:02:45) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (44.0ms)
+Completed in 104ms (View: 48, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 00:06:17) [GET]
+  [4;35;1mNote Load (6.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (244.0ms)
+Completed in 365ms (View: 305, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 00:06:23) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 4) [0m
+Rendered notes/_edit (47.0ms)
+Completed in 126ms (View: 67, DB: 2) | 200 OK [http://localhost/notes/4/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 00:06:49) [GET]
+  [4;35;1mNote Load (6.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (111.0ms)
+Completed in 228ms (View: 168, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 00:06:55) [GET]
+  [4;36;1mNote Load (4.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (128.0ms)
+Completed in 247ms (View: 165, DB: 4) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 00:07:01) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (37.0ms)
+Completed in 138ms (View: 41, DB: 5) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 00:08:35) [GET]
+  [4;36;1mNote Load (4.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (130.0ms)
+Completed in 227ms (View: 165, DB: 4) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 00:08:41) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (1.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (53.0ms)
+Completed in 377ms (View: 304, DB: 1) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 00:11:50) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (121.0ms)
+Completed in 223ms (View: 153, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 00:11:58) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 2) [0m
+Rendered notes/_edit (43.0ms)
+Completed in 108ms (View: 48, DB: 2) | 200 OK [http://localhost/notes/2/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 00:12:34) [GET]
+  [4;36;1mNote Load (8.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (110.0ms)
+Completed in 219ms (View: 153, DB: 8) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 00:12:45) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (38.0ms)
+Completed in 112ms (View: 43, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 00:13:01) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (97.0ms)
+Completed in 495ms (View: 197, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 00:13:09) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (42.0ms)
+Completed in 100ms (View: 47, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 00:13:13) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 2) [0m
+Rendered notes/_edit (69.0ms)
+Completed in 142ms (View: 81, DB: 2) | 200 OK [http://localhost/notes/2/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 00:13:18) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 3) [0m
+Rendered notes/_edit (50.0ms)
+Completed in 129ms (View: 56, DB: 2) | 200 OK [http://localhost/notes/3/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 00:13:22) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 4) [0m
+Rendered notes/_edit (40.0ms)
+Completed in 108ms (View: 44, DB: 1) | 200 OK [http://localhost/notes/4/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 00:13:47) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (10.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (59.0ms)
+Completed in 135ms (View: 69, DB: 10) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 00:13:50) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 2) [0m
+Rendered notes/_edit (191.0ms)
+Completed in 279ms (View: 222, DB: 1) | 200 OK [http://localhost/notes/2/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 00:13:53) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 3) [0m
+Rendered notes/_edit (37.0ms)
+Completed in 121ms (View: 43, DB: 2) | 200 OK [http://localhost/notes/3/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 00:14:00) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 5) [0m
+Rendered notes/_edit (41.0ms)
+Completed in 110ms (View: 49, DB: 1) | 200 OK [http://localhost/notes/5/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 00:25:24) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (113.0ms)
+Completed in 209ms (View: 150, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 00:25:31) [GET]
+  Parameters: {"id"=>"37"}
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 37) [0m
+Rendered notes/_edit (72.0ms)
+Completed in 146ms (View: 92, DB: 1) | 200 OK [http://localhost/notes/37/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 00:30:30) [GET]
+  [4;35;1mNote Load (9.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (104.0ms)
+Completed in 259ms (View: 144, DB: 9) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 00:30:36) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (57.0ms)
+Completed in 137ms (View: 79, DB: 1) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 00:35:20) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (111.0ms)
+Completed in 219ms (View: 147, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 00:35:28) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (60.0ms)
+Completed in 145ms (View: 70, DB: 1) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 00:40:45) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (109.0ms)
+Completed in 240ms (View: 160, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 00:40:51) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (292.0ms)
+Completed in 353ms (View: 297, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 00:42:19) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (105.0ms)
+Completed in 217ms (View: 153, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 00:42:26) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 3) [0m
+Rendered notes/_edit (37.0ms)
+Completed in 112ms (View: 44, DB: 1) | 200 OK [http://localhost/notes/3/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 00:43:39) [GET]
+  [4;35;1mNote Load (57.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (108.0ms)
+Completed in 263ms (View: 142, DB: 57) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 00:43:45) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (40.0ms)
+Completed in 181ms (View: 55, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 00:45:12) [GET]
+  [4;35;1mNote Load (4.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (332.0ms)
+Completed in 427ms (View: 373, DB: 4) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 00:45:21) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (57.0ms)
+Completed in 120ms (View: 62, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 00:45:55) [GET]
+  Parameters: {"id"=>"49"}
+  [4;35;1mNote Load (1.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 49) [0m
+Rendered notes/_edit (40.0ms)
+Completed in 129ms (View: 46, DB: 1) | 200 OK [http://localhost/notes/49/edit]
+
+
+Processing NotesController#create (for 127.0.0.1 at 2010-08-19 00:46:07) [POST]
+  Parameters: {"authenticity_token"=>"ig8Lc0vH5WMyhQGESADBPQnMESD7mDWwsGgUhgyD4to=", "note"=>{"title"=>"New"}}
+  [4;36;1mNote Create (4.0ms)[0m   [0;1mINSERT INTO "notes" ("updated_at", "title", "content", "created_at") VALUES('2010-08-18 16:46:07', 'New', NULL, '2010-08-18 16:46:07')[0m
+Completed in 160ms (View: 15, DB: 4) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#list (for 127.0.0.1 at 2010-08-19 00:46:08) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendered notes/_list (123.0ms)
+Completed in 223ms (View: 129, DB: 5) | 200 OK [http://localhost/notes/list]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 00:46:11) [GET]
+  Parameters: {"id"=>"53"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 53) [0m
+Rendered notes/_edit (39.0ms)
+Completed in 98ms (View: 44, DB: 2) | 200 OK [http://localhost/notes/53/edit]
+
+
+Processing NotesController#destroy (for 127.0.0.1 at 2010-08-19 00:46:17) [GET]
+  Parameters: {"id"=>"53"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 53) [0m
+  [4;36;1mNote Destroy (4.0ms)[0m   [0;1mDELETE FROM "notes" WHERE "id" = 53[0m
+Completed in 92ms (View: 13, DB: 6) | 200 OK [http://localhost/notes/destroy/53]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 00:46:21) [GET]
+  Parameters: {"id"=>"49"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 49) [0m
+Rendered notes/_edit (35.0ms)
+Completed in 93ms (View: 40, DB: 2) | 200 OK [http://localhost/notes/49/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 00:46:24) [GET]
+  Parameters: {"id"=>"44"}
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 44) [0m
+Rendered notes/_edit (39.0ms)
+Completed in 307ms (View: 44, DB: 1) | 200 OK [http://localhost/notes/44/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 00:46:27) [GET]
+  Parameters: {"id"=>"49"}
+  [4;35;1mNote Load (4.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 49) [0m
+Rendered notes/_edit (40.0ms)
+Completed in 115ms (View: 44, DB: 4) | 200 OK [http://localhost/notes/49/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 01:07:56) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (104.0ms)
+Completed in 199ms (View: 140, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 01:08:09) [GET]
+  [4;35;1mNote Load (4.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (121.0ms)
+Completed in 229ms (View: 154, DB: 4) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 01:15:00) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (127.0ms)
+Completed in 242ms (View: 169, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 01:16:09) [GET]
+  [4;35;1mNote Load (6.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (108.0ms)
+Completed in 216ms (View: 157, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 01:16:15) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (48.0ms)
+Completed in 139ms (View: 54, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 01:16:32) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 2) [0m
+Rendered notes/_edit (117.0ms)
+Completed in 185ms (View: 126, DB: 2) | 200 OK [http://localhost/notes/2/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 01:16:39) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (45.0ms)
+Completed in 109ms (View: 49, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 01:18:47) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (95.0ms)
+Completed in 192ms (View: 132, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 01:18:57) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (293.0ms)
+Completed in 355ms (View: 299, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 01:19:01) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 2) [0m
+Rendered notes/_edit (40.0ms)
+Completed in 109ms (View: 46, DB: 2) | 200 OK [http://localhost/notes/2/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 01:19:03) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 3) [0m
+Rendered notes/_edit (35.0ms)
+Completed in 96ms (View: 41, DB: 2) | 200 OK [http://localhost/notes/3/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 01:19:49) [GET]
+  [4;35;1mNote Load (4.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (96.0ms)
+Completed in 207ms (View: 132, DB: 4) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 01:19:57) [GET]
+  Parameters: {"id"=>"49"}
+  [4;36;1mNote Load (3.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 49) [0m
+Rendered notes/_edit (44.0ms)
+Completed in 125ms (View: 52, DB: 3) | 200 OK [http://localhost/notes/49/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 01:20:41) [GET]
+  [4;35;1mNote Load (7.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (111.0ms)
+Completed in 261ms (View: 151, DB: 7) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 01:20:50) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 3) [0m
+Rendered notes/_edit (36.0ms)
+Completed in 314ms (View: 42, DB: 2) | 200 OK [http://localhost/notes/3/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 01:21:34) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (136.0ms)
+Completed in 241ms (View: 173, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 01:21:40) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 5) [0m
+Rendered notes/_edit (47.0ms)
+Completed in 144ms (View: 70, DB: 5) | 200 OK [http://localhost/notes/5/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 01:21:59) [GET]
+  [4;35;1mNote Load (7.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (99.0ms)
+Completed in 202ms (View: 130, DB: 7) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 01:22:07) [GET]
+  Parameters: {"id"=>"44"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 44) [0m
+Rendered notes/_edit (48.0ms)
+Completed in 348ms (View: 289, DB: 2) | 200 OK [http://localhost/notes/44/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 01:23:08) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (112.0ms)
+Completed in 266ms (View: 157, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 01:23:15) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 5) [0m
+Rendered notes/_edit (57.0ms)
+Completed in 136ms (View: 78, DB: 1) | 200 OK [http://localhost/notes/5/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 01:23:50) [GET]
+  [4;35;1mNote Load (22.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (354.0ms)
+Completed in 646ms (View: 513, DB: 22) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 01:23:56) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mNote Load (3.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 5) [0m
+Rendered notes/_edit (283.0ms)
+Completed in 342ms (View: 287, DB: 3) | 200 OK [http://localhost/notes/5/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 01:24:21) [GET]
+  [4;35;1mNote Load (4.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (107.0ms)
+Completed in 211ms (View: 150, DB: 4) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 01:24:26) [GET]
+  Parameters: {"id"=>"37"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 37) [0m
+Rendered notes/_edit (35.0ms)
+Completed in 91ms (View: 42, DB: 2) | 200 OK [http://localhost/notes/37/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 01:24:38) [GET]
+  [4;35;1mNote Load (6.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (174.0ms)
+Completed in 394ms (View: 333, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 01:24:42) [GET]
+  Parameters: {"id"=>"49"}
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 49) [0m
+Rendered notes/_edit (39.0ms)
+Completed in 119ms (View: 45, DB: 1) | 200 OK [http://localhost/notes/49/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 01:31:36) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (352.0ms)
+Completed in 465ms (View: 383, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 01:31:42) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (66.0ms)
+Completed in 128ms (View: 73, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-19 01:31:44) [GET]
+
+ActionController::RoutingError (No route matches "/images/note_editor_title.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 01:33:19) [GET]
+  [4;35;1mNote Load (4.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (118.0ms)
+Completed in 313ms (View: 163, DB: 4) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 01:33:25) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 2) [0m
+Rendered notes/_edit (40.0ms)
+Completed in 112ms (View: 45, DB: 1) | 200 OK [http://localhost/notes/2/edit]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-19 01:33:26) [GET]
+
+ActionController::RoutingError (No route matches "/images/note_editor_title.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 01:34:40) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (336.0ms)
+Completed in 427ms (View: 369, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 01:34:46) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (40.0ms)
+Completed in 101ms (View: 47, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-19 01:34:47) [GET]
+
+ActionController::RoutingError (No route matches "/images/note_editor_title.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-19 01:35:48) [GET]
+
+ActionController::RoutingError (No route matches "/images/note_editor_title.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 01:36:22) [GET]
+  [4;35;1mNote Load (6.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (102.0ms)
+Completed in 190ms (View: 135, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 01:36:28) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (46.0ms)
+Completed in 109ms (View: 52, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 01:49:37) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (373.0ms)
+Completed in 472ms (View: 405, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 01:50:23) [GET]
+  [4;36;1mNote Load (12.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (233.0ms)
+Completed in 425ms (View: 291, DB: 12) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 01:51:14) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (51.0ms)
+Completed in 127ms (View: 57, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 01:53:00) [GET]
+  [4;36;1mNote Load (7.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (128.0ms)
+Completed in 346ms (View: 195, DB: 7) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 01:53:30) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (119.0ms)
+Completed in 244ms (View: 168, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 01:53:42) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (125.0ms)
+Completed in 269ms (View: 192, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 01:54:06) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (76.0ms)
+Completed in 157ms (View: 85, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 01:54:15) [GET]
+  [4;36;1mNote Load (4.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (243.0ms)
+Completed in 386ms (View: 315, DB: 4) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 01:56:12) [GET]
+  [4;35;1mNote Load (8.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (385.0ms)
+Completed in 506ms (View: 435, DB: 8) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 01:56:19) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (3.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (69.0ms)
+Completed in 150ms (View: 91, DB: 3) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 01:57:18) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (116.0ms)
+Completed in 251ms (View: 174, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 01:57:46) [GET]
+  [4;36;1mNote Load (10.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (146.0ms)
+Completed in 269ms (View: 188, DB: 10) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 01:57:58) [GET]
+  [4;35;1mNote Load (9.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (137.0ms)
+Completed in 259ms (View: 172, DB: 9) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 01:58:10) [GET]
+  [4;36;1mNote Load (4.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (124.0ms)
+Completed in 248ms (View: 161, DB: 4) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 01:58:21) [GET]
+  [4;35;1mNote Load (4.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (130.0ms)
+Completed in 226ms (View: 163, DB: 4) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 01:58:39) [GET]
+  [4;36;1mNote Load (4.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (116.0ms)
+Completed in 458ms (View: 151, DB: 4) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 01:58:59) [GET]
+  [4;35;1mNote Load (4.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (108.0ms)
+Completed in 207ms (View: 142, DB: 4) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 01:59:20) [GET]
+  [4;36;1mNote Load (4.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (108.0ms)
+Completed in 224ms (View: 140, DB: 4) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 02:00:18) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (481.0ms)
+Completed in 618ms (View: 517, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 02:01:31) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (105.0ms)
+Completed in 206ms (View: 138, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 02:01:38) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (107.0ms)
+Completed in 232ms (View: 147, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 02:02:44) [GET]
+  [4;36;1mNote Load (4.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (122.0ms)
+Completed in 238ms (View: 162, DB: 4) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 02:11:43) [GET]
+  [4;35;1mNote Load (12.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (154.0ms)
+Completed in 323ms (View: 202, DB: 12) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 02:12:37) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (200.0ms)
+Completed in 296ms (View: 232, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 02:20:46) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (115.0ms)
+Completed in 206ms (View: 147, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 02:21:11) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (40.0ms)
+Completed in 105ms (View: 45, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 02:24:46) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mNote Load (1.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 2) [0m
+Rendered notes/_edit (65.0ms)
+Completed in 129ms (View: 75, DB: 1) | 200 OK [http://localhost/notes/2/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 02:24:50) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 3) [0m
+Rendered notes/_edit (37.0ms)
+Completed in 96ms (View: 42, DB: 2) | 200 OK [http://localhost/notes/3/edit]
