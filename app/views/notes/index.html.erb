@@ -75,6 +75,7 @@
 				$('#note_title').val("");
 				$.get('/notes/list', function(html) {
 					$('#notes-listing-body').html(html);
+					$('#button-add').css('display', 'block');
 				});
 			}
 			else
