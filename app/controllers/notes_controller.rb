@@ -82,9 +82,9 @@ class NotesController < ApplicationController
   # PUT /notes/1
   # PUT /notes/1.xml
   def update
-    @note = Note.find(params[:id])
-	
-	if @note.update_attributes(params[:note])
+    note = Note.find(params[:id])
+
+	if note.update_attributes(params[:note])
 		render :json => { :success => :true }      
     else
 		render :json => { :success => :false, :errors => errors }
@@ -99,6 +99,7 @@ class NotesController < ApplicationController
     #  end
     #end
   end
+
 
   # DELETE /notes/1
   # DELETE /notes/1.xml

@@ -10,8 +10,8 @@
 	<div id="notes-listing-new" style="display:none;">
 			<a href="#" onclick="return closeCreateNote();">x</a>
 			<% semantic_form_for @note do |form| %>
-			 <%= form.input :title, :required => true %>		 
-			 <%= form.buttons %>  
+				<%= form.input :title, :required => true %>
+				<%= form.buttons %>  
 			<% end %>
 	</div>
 	

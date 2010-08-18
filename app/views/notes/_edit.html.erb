@@ -1,27 +1,34 @@
 <%=@note.title%><br/>
 <%=@note.created_at.strftime("%A %d %B %Y %H:%M") if @note.created_at %>
 
-<% semantic_form_for @note, :html => { :id => "note_content_form" } do |form| %>
+<% semantic_form_for @note, :html => { :id => 'update_content_form'} do |form| %>
 	<%= form.input :content, :as => :ckeditor %>
-	<%= form.buttons %>  
+	<button id="note_submit" onclick="return updateNote(this.form);">Update</button>
 <% end %>
+
+<div id="edit-status"></div>
 
 <a href="/notes/destroy/<%=@note.id%>" onclick="return deleteNote(this, '#notes-listing-item-<%=@note.id%>');">Delete This Note</a>
 
 <script type="text/javascript">
 	// updates a note
-	$('#note_content_form').submit(function() {
-		var path = $('#note_content_form').attr("action");
-		var params = $('#note_content_form').serialize();
-		$.post(path, params, function(data) {
-			if(data.success){
-			
-			}
-			else
-			{
-				
-			}
-		}, "json");
-		return false;
-    });
+	function updateNote(form){
+		$('#' + form.id).submit(function() {
+			var path = $('#' + form.id).attr("action");
+			var params = $('#' + form.id).serialize();
+			$.post(path, params, function(data) {
+				if(data.success){
+					$('#edit-status').html("Updated");
+				}
+				else
+				{
+					
+				}
+			}, "json");
+			return false;
+		});
+		false;
+	}
+	
+	
 </script>
