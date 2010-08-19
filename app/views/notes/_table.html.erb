@@ -5,7 +5,7 @@
 		   <% semantic_form_for note do |form| %>
 		        <img src="/images/editor_button.gif" name="editor_note" />
 				<%= form.input :title %>
-				<a href="/notes/destroy/<%=note.id%>" onclick="return deleteNote(this, '#notes-listing-item-<%=note.id%>');">
+				<a href="/notes/destroy/<%=note.id%>" onclick="return deleteNote(this, '#edit-notes-listing-item-<%=note.id%>');">
 				<img src="/images/delete_button.gif" name="delete_note" />
 				</a>
 		   <% end %>

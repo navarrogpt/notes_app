@@ -56,6 +56,34 @@
 </div>
 
 <script type="text/javascript">
+    // saves the list
+	function saveList(){
+		$('#button-edit').css('display', 'block');
+		$('#button-save').css('display', 'none');
+		$('#button-add').css('display', 'block');
+		$('#button-cancel').css('display', 'none');
+		var forms = document.getElementsByTagName("form");
+		for (var i=0; i<forms.length; i++){
+		   if(forms[i].id.indexOf("edit_note_") >= 0)
+		   {
+					var path = $("#" + forms[i].id).attr("action");
+					var params = $("#" + forms[i].id).serialize();
+					$.post(path, params, function(data) {
+						if(data.success){
+							$.get('/notes/list', function(html) {
+								$('#notes-listing-body').html(html);
+							});
+						}
+						else
+						{
+							
+						}
+					}, "json");
+		   }
+
+			
+		}
+	}
 	
     // opens the Create Note panel
     function openCreateNote(){
@@ -79,6 +107,7 @@
 		
 		$.get(link.href, function(html) {
 			panel.html(html);
+			closeCreateNote();
 		});
 		return false;
 
