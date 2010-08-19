@@ -1,5 +1,5 @@
 ActionController::Routing::Routes.draw do |map|
-  map.resources :notes, :collection => { :list => :get }
+  map.resources :notes, :collection => { :list => :get, :table => :get }
 
   # The priority is based upon order of creation: first created -> highest priority.
 

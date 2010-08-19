@@ -1,5 +1,10 @@
 <div id="notes-listing">
 	<div id="notes-listing-header">
+	    <div id="button-cancel" style="display:none;">
+			<a href="/notes/list/" onclick="return closeEditList(this);">
+			  <img src="/images/cancel_button.gif" name="cancel_note" class="header-button-set"/>
+			</a>
+		</div>
 		<div id="button-add">
 			<a href="#" onclick="return openCreateNote();">
 			  <img src="/images/add_button.gif" name="add_note" class="header-button-set"/>
@@ -9,13 +14,21 @@
 			<span>Notes</span>
 		</div>
 		<div id="button-edit">
-			
+			<a href="/notes/table/" onclick="return openEditList(this);">
+			  <img src="/images/edit_button.gif" name="edit_note" class="header-button-set"/>
+			</a>
+		</div>
+		<div id="button-save" style="display:none;">
+			<a href="#" onclick="return saveList();">
+			  <img src="/images/save_button.gif" name="save_note" class="header-button-set"/>
+			</a>
 		</div>
 	</div>
 	
 	<div id="notes-listing-body">
 	    <%= render :partial => "list" %>		
 	</div>
+	
 	<div id="notes-listing-new" style="display:none;">
 	    <!--
 		<ul id="notes-listing-new-list">
@@ -54,6 +67,35 @@
 	function closeCreateNote(){
 	    $('#notes-listing-new').css('display', 'none');	
 		$('#button-add').css('visibility', 'visible');
+	}
+	
+	// opens the list as editable
+	function openEditList(link, callback){
+		$('#button-edit').css('display', 'none');
+		$('#button-save').css('display', 'block');
+		$('#button-add').css('display', 'none');
+		$('#button-cancel').css('display', 'block');
+		var panel = $("#notes-listing-body");
+		
+		$.get(link.href, function(html) {
+			panel.html(html);
+		});
+		return false;
+
+	}
+	
+	// closes the list as editable
+	function closeEditList(link, callback){
+		$('#button-edit').css('display', 'block');
+		$('#button-save').css('display', 'none');
+		$('#button-add').css('display', 'block');
+		$('#button-cancel').css('display', 'none');
+		var panel = $("#notes-listing-body");
+		
+		$.get(link.href, function(html) {
+			panel.html(html);
+		});
+		return false;
 	}
 	
 	// opens a note

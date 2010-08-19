@@ -84,6 +84,16 @@ a:hover { text-decoration:none; }
   color: #cccccc;
 }
 
+#button-cancel {
+  height: 54px;
+  width: 33.3%;
+  position: relative;
+  float: left;
+  text-align: left;
+  margin-top: 13px;
+  margin-bottom: -13px;
+}
+
 #button-add {
   height: 54px;
   width: 33.3%;
@@ -107,6 +117,16 @@ a:hover { text-decoration:none; }
 }
 
 #button-edit {
+  height: 54px;
+  width: 33.3%;
+  position: relative;
+  float: right;
+  text-align: right;
+  margin-top: 13px;
+  margin-bottom: -13px;
+}
+
+#button-save{
   height: 54px;
   width: 33.3%;
   position: relative;

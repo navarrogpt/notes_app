@@ -17,10 +17,10 @@ class NotesController < ApplicationController
     render :partial => "list", :layout => false
   end
   
-  def list_editable
-    @notes = Note.all
+  def table
+	@notes = Note.all
 	
-    render :partial => "list_editable", :layout => false
+	render :partial => "table", :layout => false
   end
 
   # GET /notes/1
