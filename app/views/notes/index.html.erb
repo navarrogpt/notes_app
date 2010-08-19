@@ -17,19 +17,20 @@
 	    <%= render :partial => "list" %>		
 	</div>
 	<div id="notes-listing-new" style="display:none;">
-	    <ul id="notes-listing-new-list">
+	    <!--
+		<ul id="notes-listing-new-list">
 		  <li id="notes-listing-new-list-item" class="notes-listing-new-list-items">
-			<a href="#" onclick="return closeCreateNote();">
-			  <img src="/images/close_button.gif" name="close_new_note" />
-			</a>
-			
 		  </li>
 		</ul>
+		-->
 		<% semantic_form_for @note do |form| %>
-				<%= form.input :title, :required => false %>
-				<% form.buttons do %>
-				  <%= form.commit_button :label => " " %>
-				<% end %>
+			<a href="#" onclick="return closeCreateNote();">
+				<img src="/images/close_button.gif" name="close_new_note" />
+			</a>
+			<%= form.input :title, :required => false %>
+			<% form.buttons do %>
+			  <%= form.commit_button :label => " " %>
+			<% end %>
 		<% end %>
 	</div>
 	

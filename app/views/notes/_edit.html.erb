@@ -6,13 +6,14 @@
 </div>
 
 <div id="note-editor-date-time">
-	<%=@note.created_at.strftime("%A #{@note.created_at.day.ordinalize} %B %Y %I:%M%p") if @note.created_at %>
+	<span id="date-created"><%=@note.created_at.strftime("%A #{@note.created_at.day.ordinalize} %B %Y") if @note.created_at %></span>
+	<span id="time-created"><%=@note.created_at.strftime("%I:%M%p") if @note.created_at %></span>
 </div>
 
 <div id="note-editor-editor">
 	<% semantic_form_for @note, :html => { :id => 'update_content_form'} do |form| %>
 		<%= form.cktext_area :content, :toolbar=>'Easy', :width=>'720px', :height=>'450px' %>
-		<button id="note_submit" onclick="return updateNote(this.form);">Update</button>
+		<button id="note_submit" onclick="return updateNote(this.form);"></button>
 	<% end %>
 </div>
 
@@ -20,7 +21,7 @@
 
 <div id="note-editor-delete">
 	<a href="/notes/destroy/<%=@note.id%>" onclick="return deleteNote(this, '#notes-listing-item-<%=@note.id%>');">
-		<img src="/images/delete_this_note_button.gif" id="delete-this-note-button" name="delete_note" class="header-button-set"/>
+		<img src="/images/delete_this_note_button.gif" id="delete-this-note-button" name="delete_note" />
 	</a>
 </div>
 

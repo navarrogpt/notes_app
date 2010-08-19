@@ -9,11 +9,14 @@
 			   <button id="edit-note-title" onclick="return openEditNoteTitle('#edit-notes-listing-item-<%=note.id%>', '#show-notes-listing-item-<%=note.id%>', '#edit_note_<%=note.id%>');">edit</button>
 		   </div>
 	   </a>
-	   <div id="edit-notes-listing-item-<%=note.id%>" style="display:none;">
+	   <div id="edit-notes-listing-item-<%=note.id%>" class="edit-notes-listing-items" style="display:none;">
 		   <% semantic_form_for note do |form| %>
+		        <img src="/images/editor_button.gif" name="editor_note" />
 				<%= form.input :title %>
+				<a href="/notes/destroy/<%=note.id%>" onclick="return deleteNote(this, '#notes-listing-item-<%=note.id%>');">
+				<img src="/images/delete_button.gif" name="delete_note" />
+				</a>
 		   <% end %>
-		   <a href="/notes/destroy/<%=note.id%>" onclick="return deleteNote(this, '#notes-listing-item-<%=note.id%>');">x</a>
 	   </div>  
 	</li>
 <% end %>
