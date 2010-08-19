@@ -9,7 +9,7 @@
 			<span>Notes</span>
 		</div>
 		<div id="button-edit">
-			<img src="/images/add_button.gif" name="add_note" class="header-button-set"/>
+			
 		</div>
 	</div>
 	
@@ -17,11 +17,20 @@
 	    <%= render :partial => "list" %>		
 	</div>
 	<div id="notes-listing-new" style="display:none;">
-			<a href="#" onclick="return closeCreateNote();">x</a>
-			<% semantic_form_for @note do |form| %>
-				<%= form.input :title, :required => true %>
-				<%= form.buttons %>  
-			<% end %>
+	    <ul id="notes-listing-new-list">
+		  <li id="notes-listing-new-list-item" class="notes-listing-new-list-items">
+			<a href="#" onclick="return closeCreateNote();">
+			  <img src="/images/close_button.gif" name="close_new_note" />
+			</a>
+			
+		  </li>
+		</ul>
+		<% semantic_form_for @note do |form| %>
+				<%= form.input :title, :required => false %>
+				<% form.buttons do %>
+				  <%= form.commit_button :label => " " %>
+				<% end %>
+		<% end %>
 	</div>
 	
 </div>

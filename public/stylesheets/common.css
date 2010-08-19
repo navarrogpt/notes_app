@@ -148,7 +148,7 @@ a:hover { text-decoration:none; }
   background: transparent url('../images/item_selected.gif') repeat-x;
 }
 .notes-listing-list-items-div {
-  
+  margin-top: 9px;
 }
 
 .notes-listing-list-items-title {
@@ -167,15 +167,25 @@ a:hover { text-decoration:none; }
   font-effect: engraved;
 }
 
-.notes-listing-new {
-  font-size: 10px;
-  font-weight: bold;
-  color: #999999;
+#notes-listing-new {
+ 
+}
+
+#notes-listing-new-list {
+  list-style: none;
   margin: 0px;
   padding: 0px;
-  margin-left: 10px;
-  height: 54px;
+}
+
+.notes-listing-new-list-items {
+  font-family: Tahoma, Arial, Verdana, Helvetica;
+  list-style: none;
+  border-top: 1px solid #717171;
   border-bottom: 1px solid #1c1c1c;
+  border-right: 2px solid #4A4A4A;
+  height: 54px;
+  margin: 0px;
+  padding: 0px;
 }
 
 #note-editor-title {
@@ -202,15 +212,66 @@ a:hover { text-decoration:none; }
 }
 
 #note-editor-date-time {
-  height: 54px;
+  height: 32px;
   position: relative;
   float: left;
   width: 741px;
 }
 
+#note-editor-editor {
+  margin-top: 10px;
+  height: 100px;
+  position: relative;
+  float: left;
+  width: 721px;
+  margin-left: 7px;
+  margin-right: 10px;
+}
+
+
 #note-editor-delete {
+  position: relative;
+  float: left;
   width: 741px;
   height: 47px;
   text-align: center;
   background: transparent url('../images/note_editor_delete.gif') no-repeat;
+}
+
+#note_submit {
+  background: transparent url('../images/save_button.gif') no-repeat;
+  width: 62px;
+  height: 28px;
+  border: 0px;
+}
+
+#note_title_input {
+  width: 170px;
+}
+
+label {
+  display: none;
+}
+
+input[type=text] {
+  margin: 0px;
+  width: 170px;
+  height: 28px;
+  border: 1px solid #1c1c1c; 
+}
+
+fieldset .buttons {
+  width: 62px;
+}
+
+ol {
+  width: 62px;
+}
+
+li .commit {
+  width: 62px;
+}
+
+textarea {
+  width: 721px;
 }

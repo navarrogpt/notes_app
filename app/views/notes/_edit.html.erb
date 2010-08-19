@@ -6,12 +6,12 @@
 </div>
 
 <div id="note-editor-date-time">
-	<%=@note.created_at.strftime("%A %d %B %Y %H:%M") if @note.created_at %>
+	<%=@note.created_at.strftime("%A #{@note.created_at.day.ordinalize} %B %Y %I:%M%p") if @note.created_at %>
 </div>
 
 <div id="note-editor-editor">
 	<% semantic_form_for @note, :html => { :id => 'update_content_form'} do |form| %>
-		<%= form.input :content %>
+		<%= form.text_area :content %>
 		<button id="note_submit" onclick="return updateNote(this.form);">Update</button>
 	<% end %>
 </div>

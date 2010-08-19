@@ -5,8 +5,7 @@
 		   <div id="show-notes-listing-item-<%=note.id%>" class="notes-listing-list-items-div">
 			   <span class="notes-listing-list-items-title"><%=note.title%></span>
 			   <br/>
-			   <span class="notes-listing-list-items-date"><%= note.created_at.strftime("%A %d %B %Y") if note.created_at %></span>
-			   <br/>
+			   <span class="notes-listing-list-items-date"><%= note.created_at.strftime("%A #{note.created_at.day.ordinalize} %B %Y") if note.created_at %></span>
 			   <button id="edit-note-title" onclick="return openEditNoteTitle('#edit-notes-listing-item-<%=note.id%>', '#show-notes-listing-item-<%=note.id%>', '#edit_note_<%=note.id%>');">edit</button>
 		   </div>
 	   </a>
