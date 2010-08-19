@@ -21555,3 +21555,2106 @@ Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 14:36:21) [GET]
   [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
 Rendered notes/_edit (11.0ms)
 Completed in 68ms (View: 17, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 15:00:44) [GET]
+  [4;36;1mNote Load (114.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (310.0ms)
+Completed in 753ms (View: 590, DB: 114) | 200 OK [http://localhost/notes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-19 15:00:47) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jHtmlArea-0-7-0.min" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 15:00:52) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (1.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (24.0ms)
+Completed in 261ms (View: 216, DB: 1) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 15:01:48) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (92.0ms)
+Completed in 203ms (View: 146, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 15:01:54) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (11.0ms)
+Completed in 69ms (View: 17, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#update (for 127.0.0.1 at 2010-08-19 15:02:42) [PUT]
+  Parameters: {"authenticity_token"=>"ig8Lc0vH5WMyhQGESADBPQnMESD7mDWwsGgUhgyD4to=", "id"=>"1", "note"=>{"content"=>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}}
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+  [4;35;1mNote Update (106.0ms)[0m   [0mUPDATE "notes" SET "content" = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', "updated_at" = '2010-08-19 07:02:43' WHERE "id" = 1[0m
+Completed in 187ms (View: 11, DB: 107) | 200 OK [http://localhost/notes/1]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 15:02:48) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 2) [0m
+Rendered notes/_edit (11.0ms)
+Completed in 64ms (View: 17, DB: 1) | 200 OK [http://localhost/notes/2/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 15:02:54) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (1.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (13.0ms)
+Completed in 67ms (View: 18, DB: 1) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#update (for 127.0.0.1 at 2010-08-19 15:03:03) [PUT]
+  Parameters: {"authenticity_token"=>"ig8Lc0vH5WMyhQGESADBPQnMESD7mDWwsGgUhgyD4to=", "id"=>"1", "note"=>{"content"=>"<b>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</b>"}}
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+  [4;35;1mNote Update (4.0ms)[0m   [0mUPDATE "notes" SET "content" = '<b>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</b>', "updated_at" = '2010-08-19 07:03:03' WHERE "id" = 1[0m
+Completed in 279ms (View: 11, DB: 5) | 200 OK [http://localhost/notes/1]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 15:03:13) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 2) [0m
+Rendered notes/_edit (11.0ms)
+Completed in 62ms (View: 16, DB: 1) | 200 OK [http://localhost/notes/2/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 15:03:15) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (1.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (11.0ms)
+Completed in 60ms (View: 15, DB: 1) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 15:04:37) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (11.0ms)
+Completed in 63ms (View: 16, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 15:04:38) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mNote Load (1.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 2) [0m
+Rendered notes/_edit (11.0ms)
+Completed in 63ms (View: 16, DB: 1) | 200 OK [http://localhost/notes/2/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 15:04:41) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mNote Load (4.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 3) [0m
+Rendered notes/_edit (12.0ms)
+Completed in 68ms (View: 16, DB: 4) | 200 OK [http://localhost/notes/3/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 15:04:42) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mNote Load (1.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 2) [0m
+Rendered notes/_edit (11.0ms)
+Completed in 65ms (View: 16, DB: 1) | 200 OK [http://localhost/notes/2/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 15:04:44) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (11.0ms)
+Completed in 94ms (View: 22, DB: 1) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 15:11:06) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (150.0ms)
+Completed in 262ms (View: 194, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 15:11:13) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (25.0ms)
+Completed in 88ms (View: 43, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 15:12:19) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (97.0ms)
+Completed in 178ms (View: 126, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 15:12:28) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (27.0ms)
+Completed in 93ms (View: 45, DB: 1) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 15:12:56) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (101.0ms)
+Completed in 187ms (View: 133, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 15:13:00) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (28.0ms)
+Completed in 110ms (View: 54, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 15:13:50) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (11.0ms)
+Completed in 61ms (View: 15, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 15:13:51) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (12.0ms)
+Completed in 63ms (View: 16, DB: 1) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 15:13:52) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mNote Load (1.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 2) [0m
+Rendered notes/_edit (12.0ms)
+Completed in 63ms (View: 17, DB: 1) | 200 OK [http://localhost/notes/2/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 15:13:53) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 3) [0m
+Rendered notes/_edit (10.0ms)
+Completed in 60ms (View: 14, DB: 1) | 200 OK [http://localhost/notes/3/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 15:13:55) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (1.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (11.0ms)
+Completed in 61ms (View: 15, DB: 1) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 15:13:59) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 2) [0m
+Rendered notes/_edit (12.0ms)
+Completed in 60ms (View: 16, DB: 2) | 200 OK [http://localhost/notes/2/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 15:14:01) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 3) [0m
+Rendered notes/_edit (10.0ms)
+Completed in 60ms (View: 14, DB: 2) | 200 OK [http://localhost/notes/3/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 15:14:02) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 4) [0m
+Rendered notes/_edit (11.0ms)
+Completed in 66ms (View: 16, DB: 2) | 200 OK [http://localhost/notes/4/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 15:14:03) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (1.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (11.0ms)
+Completed in 62ms (View: 17, DB: 1) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 15:14:05) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 2) [0m
+Rendered notes/_edit (11.0ms)
+Completed in 60ms (View: 15, DB: 2) | 200 OK [http://localhost/notes/2/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 15:14:05) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mNote Load (1.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 3) [0m
+Rendered notes/_edit (10.0ms)
+Completed in 65ms (View: 18, DB: 1) | 200 OK [http://localhost/notes/3/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 15:14:06) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 2) [0m
+Rendered notes/_edit (10.0ms)
+Completed in 60ms (View: 16, DB: 2) | 200 OK [http://localhost/notes/2/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 15:14:08) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (1.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (11.0ms)
+Completed in 61ms (View: 15, DB: 1) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 15:18:42) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (130.0ms)
+Completed in 255ms (View: 175, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 15:18:47) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (27.0ms)
+Completed in 94ms (View: 45, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 15:23:51) [GET]
+  [4;36;1mNote Load (4.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (292.0ms)
+Completed in 377ms (View: 324, DB: 4) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 15:23:56) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mNote Load (1.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 2) [0m
+Rendered notes/_edit (10.0ms)
+Completed in 62ms (View: 15, DB: 1) | 200 OK [http://localhost/notes/2/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 15:23:58) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 3) [0m
+Rendered notes/_edit (11.0ms)
+Completed in 61ms (View: 16, DB: 1) | 200 OK [http://localhost/notes/3/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 15:24:02) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mNote Load (1.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 4) [0m
+Rendered notes/_edit (11.0ms)
+Completed in 63ms (View: 16, DB: 1) | 200 OK [http://localhost/notes/4/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 15:24:02) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 5) [0m
+Rendered notes/_edit (11.0ms)
+Completed in 64ms (View: 17, DB: 1) | 200 OK [http://localhost/notes/5/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 15:28:37) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (12.0ms)
+Completed in 119ms (View: 18, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 15:36:32) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 2) [0m
+Rendered notes/_edit (11.0ms)
+Completed in 122ms (View: 17, DB: 1) | 200 OK [http://localhost/notes/2/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 15:36:41) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 3) [0m
+Rendered notes/_edit (10.0ms)
+Completed in 75ms (View: 15, DB: 2) | 200 OK [http://localhost/notes/3/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 15:36:43) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 2) [0m
+Rendered notes/_edit (11.0ms)
+Completed in 62ms (View: 16, DB: 2) | 200 OK [http://localhost/notes/2/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 15:36:45) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (13.0ms)
+Completed in 79ms (View: 18, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 15:36:48) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 2) [0m
+Rendered notes/_edit (10.0ms)
+Completed in 64ms (View: 16, DB: 2) | 200 OK [http://localhost/notes/2/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 15:36:48) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mNote Load (1.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 3) [0m
+Rendered notes/_edit (11.0ms)
+Completed in 63ms (View: 16, DB: 1) | 200 OK [http://localhost/notes/3/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 15:43:00) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 2) [0m
+Rendered notes/_edit (11.0ms)
+Completed in 63ms (View: 15, DB: 1) | 200 OK [http://localhost/notes/2/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 15:43:02) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (11.0ms)
+Completed in 88ms (View: 19, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 15:43:04) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (11.0ms)
+Completed in 63ms (View: 16, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 15:43:07) [GET]
+  [4;35;1mNote Load (8.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (177.0ms)
+Completed in 356ms (View: 265, DB: 8) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 15:45:11) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (106.0ms)
+Completed in 200ms (View: 141, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 15:45:17) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (1.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (26.0ms)
+Completed in 91ms (View: 44, DB: 1) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 15:51:54) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (135.0ms)
+Completed in 265ms (View: 199, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 15:52:02) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (48.0ms)
+Completed in 121ms (View: 71, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 15:55:34) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (108.0ms)
+Completed in 213ms (View: 156, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-19 15:55:37) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jHtmlArea.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-19 15:55:38) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jHtmlArea-0.7.0.min" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 15:56:19) [GET]
+  [4;35;1mNote Load (6.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (157.0ms)
+Completed in 370ms (View: 233, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 15:58:26) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (33.0ms)
+Completed in 85ms (View: 38, DB: 1) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 16:39:25) [GET]
+  [4;35;1mNote Load (6.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (133.0ms)
+Completed in 226ms (View: 167, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 16:39:30) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (47.0ms)
+Completed in 138ms (View: 91, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 16:40:56) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (111.0ms)
+Completed in 201ms (View: 146, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 16:41:01) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (45.0ms)
+Completed in 287ms (View: 239, DB: 1) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 16:42:23) [GET]
+  [4;35;1mNote Load (25.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (146.0ms)
+Completed in 288ms (View: 185, DB: 25) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 16:42:38) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (44.0ms)
+Completed in 109ms (View: 61, DB: 1) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 16:42:41) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (153.0ms)
+Completed in 240ms (View: 186, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 16:42:52) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (35.0ms)
+Completed in 93ms (View: 40, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 17:06:10) [GET]
+  [4;35;1mNote Load (6.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (106.0ms)
+Completed in 215ms (View: 157, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 17:06:14) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (23.0ms)
+Completed in 97ms (View: 44, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 17:07:06) [GET]
+  [4;35;1mNote Load (8.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (128.0ms)
+Completed in 324ms (View: 203, DB: 8) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 17:07:15) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (23.0ms)
+Completed in 89ms (View: 40, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#update (for 127.0.0.1 at 2010-08-19 17:07:32) [PUT]
+  Parameters: {"authenticity_token"=>"ig8Lc0vH5WMyhQGESADBPQnMESD7mDWwsGgUhgyD4to=", "id"=>"1", "note"=>{"content"=>"<p>\n\tLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\n"}}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+  [4;36;1mNote Update (45.0ms)[0m   [0;1mUPDATE "notes" SET "content" = '<p>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+', "updated_at" = '2010-08-19 09:07:32' WHERE "id" = 1[0m
+Completed in 187ms (View: 13, DB: 47) | 200 OK [http://localhost/notes/1]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 17:07:37) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mNote Load (1.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 2) [0m
+Rendered notes/_edit (10.0ms)
+Completed in 61ms (View: 15, DB: 1) | 200 OK [http://localhost/notes/2/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 17:07:43) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (32.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (46.0ms)
+Completed in 134ms (View: 51, DB: 32) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 17:07:53) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (93.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (54.0ms)
+Completed in 212ms (View: 60, DB: 93) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 17:07:54) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 2) [0m
+Rendered notes/_edit (10.0ms)
+Completed in 63ms (View: 15, DB: 1) | 200 OK [http://localhost/notes/2/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 17:08:35) [GET]
+  [4;35;1mNote Load (7.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (307.0ms)
+Completed in 440ms (View: 381, DB: 7) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 17:08:40) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (24.0ms)
+Completed in 101ms (View: 47, DB: 1) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#update (for 127.0.0.1 at 2010-08-19 17:08:49) [PUT]
+  Parameters: {"authenticity_token"=>"ig8Lc0vH5WMyhQGESADBPQnMESD7mDWwsGgUhgyD4to=", "id"=>"1", "note"=>{"content"=>"<p>\n\t<strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</strong></p>\n"}}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+  [4;36;1mNote Update (7.0ms)[0m   [0;1mUPDATE "notes" SET "content" = '<p>
+	<strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</strong></p>
+', "updated_at" = '2010-08-19 09:08:49' WHERE "id" = 1[0m
+Completed in 88ms (View: 11, DB: 9) | 200 OK [http://localhost/notes/1]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 17:08:50) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 2) [0m
+Rendered notes/_edit (10.0ms)
+Completed in 62ms (View: 15, DB: 2) | 200 OK [http://localhost/notes/2/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 17:08:56) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (10.0ms)
+Completed in 64ms (View: 16, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 17:08:58) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 2) [0m
+Rendered notes/_edit (11.0ms)
+Completed in 70ms (View: 18, DB: 2) | 200 OK [http://localhost/notes/2/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 17:09:00) [GET]
+  [4;36;1mNote Load (7.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (106.0ms)
+Completed in 224ms (View: 136, DB: 7) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 17:14:29) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (174.0ms)
+Completed in 294ms (View: 239, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 17:14:34) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (23.0ms)
+Completed in 90ms (View: 42, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 17:15:15) [GET]
+  [4;35;1mNote Load (9.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (109.0ms)
+Completed in 237ms (View: 144, DB: 9) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 17:15:21) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (24.0ms)
+Completed in 91ms (View: 45, DB: 1) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 17:15:24) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mNote Load (1.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 3) [0m
+Rendered notes/_edit (11.0ms)
+Completed in 68ms (View: 16, DB: 1) | 200 OK [http://localhost/notes/3/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 17:15:26) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 2) [0m
+Rendered notes/_edit (11.0ms)
+Completed in 64ms (View: 16, DB: 1) | 200 OK [http://localhost/notes/2/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 17:15:30) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (24.0ms)
+Completed in 90ms (View: 29, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 17:15:50) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (104.0ms)
+Completed in 193ms (View: 139, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 17:16:02) [GET]
+  [4;35;1mNote Load (6.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (431.0ms)
+Completed in 585ms (View: 487, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 17:16:07) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (48.0ms)
+Completed in 123ms (View: 67, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 17:16:10) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 2) [0m
+Rendered notes/_edit (31.0ms)
+Completed in 82ms (View: 36, DB: 2) | 200 OK [http://localhost/notes/2/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 17:24:31) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (133.0ms)
+Completed in 248ms (View: 185, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 17:24:45) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (46.0ms)
+Completed in 325ms (View: 271, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 17:25:36) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (114.0ms)
+Completed in 214ms (View: 147, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 17:25:42) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (24.0ms)
+Completed in 90ms (View: 42, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#update (for 127.0.0.1 at 2010-08-19 17:25:50) [PUT]
+  Parameters: {"authenticity_token"=>"ig8Lc0vH5WMyhQGESADBPQnMESD7mDWwsGgUhgyD4to=", "id"=>"1", "note"=>{"content"=>"<p>\n\tLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\n"}}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+  [4;35;1mNote Update (5.0ms)[0m   [0mUPDATE "notes" SET "content" = '<p>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+', "updated_at" = '2010-08-19 09:25:50' WHERE "id" = 1[0m
+Completed in 136ms (View: 12, DB: 7) | 200 OK [http://localhost/notes/1]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 17:25:52) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 2) [0m
+Rendered notes/_edit (68.0ms)
+Completed in 120ms (View: 73, DB: 2) | 200 OK [http://localhost/notes/2/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 17:25:55) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (61.0ms)
+Completed in 111ms (View: 66, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 17:25:58) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 2) [0m
+Rendered notes/_edit (13.0ms)
+Completed in 76ms (View: 18, DB: 2) | 200 OK [http://localhost/notes/2/edit]
+
+
+Processing NotesController#update (for 127.0.0.1 at 2010-08-19 17:26:03) [PUT]
+  Parameters: {"authenticity_token"=>"ig8Lc0vH5WMyhQGESADBPQnMESD7mDWwsGgUhgyD4to=", "id"=>"2", "note"=>{"content"=>"<p>\n\tMemoirs</p>\n"}}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 2) [0m
+  [4;36;1mNote Update (14.0ms)[0m   [0;1mUPDATE "notes" SET "content" = '<p>
+	Memoirs</p>
+', "updated_at" = '2010-08-19 09:26:03' WHERE "id" = 2[0m
+Completed in 184ms (View: 14, DB: 16) | 200 OK [http://localhost/notes/2]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 17:26:07) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mNote Load (1.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 3) [0m
+Rendered notes/_edit (14.0ms)
+Completed in 72ms (View: 21, DB: 1) | 200 OK [http://localhost/notes/3/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 17:26:08) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 2) [0m
+Rendered notes/_edit (27.0ms)
+Completed in 113ms (View: 34, DB: 2) | 200 OK [http://localhost/notes/2/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 17:26:51) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (111.0ms)
+Completed in 209ms (View: 145, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 17:26:57) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (25.0ms)
+Completed in 99ms (View: 46, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 17:27:09) [GET]
+  [4;35;1mNote Load (20.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (384.0ms)
+Completed in 493ms (View: 415, DB: 20) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 17:28:31) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (131.0ms)
+Completed in 229ms (View: 176, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 17:28:36) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (23.0ms)
+Completed in 93ms (View: 42, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 17:28:57) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (105.0ms)
+Completed in 194ms (View: 136, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 17:29:06) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (4.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (26.0ms)
+Completed in 111ms (View: 53, DB: 4) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 17:29:29) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (104.0ms)
+Completed in 190ms (View: 132, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 17:29:36) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (1.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (11.0ms)
+Completed in 63ms (View: 17, DB: 1) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 17:37:28) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (130.0ms)
+Completed in 249ms (View: 173, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 17:37:35) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (24.0ms)
+Completed in 109ms (View: 42, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 17:37:46) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 2) [0m
+Rendered notes/_edit (12.0ms)
+Completed in 149ms (View: 18, DB: 1) | 200 OK [http://localhost/notes/2/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 17:38:03) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 3) [0m
+Rendered notes/_edit (26.0ms)
+Completed in 100ms (View: 48, DB: 2) | 200 OK [http://localhost/notes/3/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 17:38:05) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (132.0ms)
+Completed in 234ms (View: 169, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 17:38:09) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (4.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (54.0ms)
+Completed in 216ms (View: 62, DB: 4) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 17:38:21) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (103.0ms)
+Completed in 190ms (View: 135, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 17:38:26) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (3.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (38.0ms)
+Completed in 139ms (View: 61, DB: 3) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 17:47:22) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (12.0ms)
+Completed in 85ms (View: 17, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 17:50:06) [GET]
+  [4;35;1mNote Load (8.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (257.0ms)
+Completed in 451ms (View: 339, DB: 8) | 200 OK [http://localhost/notes]
+
+
+Processing CkeditorController#adapters to js (for 127.0.0.1 at 2010-08-19 17:50:10) [GET]
+  Parameters: {"id"=>"jquery"}
+
+ActionController::UnknownAction (No action responded to adapters. Actions: create, files, and images):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 17:50:25) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (109.0ms)
+Completed in 175ms (View: 128, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 17:51:11) [GET]
+  [4;35;1mNote Load (6.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (167.0ms)
+Completed in 317ms (View: 232, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing CkeditorController#adapters to js (for 127.0.0.1 at 2010-08-19 17:51:14) [GET]
+  Parameters: {"id"=>"jquery"}
+
+ActionController::UnknownAction (No action responded to adapters. Actions: create, files, and images):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 17:51:21) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (3.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (18.0ms)
+Completed in 109ms (View: 23, DB: 3) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 17:51:50) [GET]
+  [4;35;1mNote Load (7.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (400.0ms)
+Completed in 926ms (View: 469, DB: 7) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 17:52:06) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (8.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (24.0ms)
+Completed in 128ms (View: 34, DB: 8) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 17:52:40) [GET]
+  [4;35;1mNote Load (20.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (176.0ms)
+Completed in 337ms (View: 219, DB: 20) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 17:52:49) [GET]
+  [4;36;1mNote Load (8.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (117.0ms)
+Completed in 232ms (View: 156, DB: 8) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 17:52:55) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (14.0ms)
+Completed in 75ms (View: 18, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 17:53:34) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (173.0ms)
+Completed in 341ms (View: 271, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-19 17:53:36) [GET]
+
+ActionController::RoutingError (No route matches "/ckeditor/config.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 17:53:40) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (14.0ms)
+Completed in 65ms (View: 18, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 17:54:07) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (131.0ms)
+Completed in 688ms (View: 565, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 17:54:14) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (3.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (15.0ms)
+Completed in 75ms (View: 20, DB: 3) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 17:56:35) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (111.0ms)
+Completed in 235ms (View: 169, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 17:56:41) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (13.0ms)
+Completed in 66ms (View: 18, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 17:56:44) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 2) [0m
+Rendered notes/_edit (14.0ms)
+Completed in 277ms (View: 19, DB: 1) | 200 OK [http://localhost/notes/2/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 17:56:46) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (1.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (11.0ms)
+Completed in 74ms (View: 16, DB: 1) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 18:06:54) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (273.0ms)
+Completed in 567ms (View: 320, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 18:07:00) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (59.0ms)
+Completed in 138ms (View: 81, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 18:07:15) [GET]
+  [4;36;1mNote Load (7.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (234.0ms)
+Completed in 416ms (View: 268, DB: 7) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 18:07:24) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (27.0ms)
+Completed in 119ms (View: 53, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 18:10:02) [GET]
+  [4;36;1mNote Load (10.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (178.0ms)
+Completed in 332ms (View: 220, DB: 10) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 18:10:10) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (3.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (14.0ms)
+Completed in 81ms (View: 22, DB: 3) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 18:13:49) [GET]
+  [4;36;1mNote Load (8.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (218.0ms)
+Completed in 396ms (View: 300, DB: 8) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 18:14:00) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (12.0ms)
+Completed in 76ms (View: 19, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 18:14:38) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (153.0ms)
+Completed in 257ms (View: 202, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 18:16:47) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (60.0ms)
+Completed in 134ms (View: 65, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 19:30:28) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (439.0ms)
+Completed in 533ms (View: 475, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 19:30:36) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (12.0ms)
+Completed in 260ms (View: 17, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 19:34:20) [GET]
+  [4;36;1mNote Load (12.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (105.0ms)
+Completed in 226ms (View: 136, DB: 12) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 19:34:30) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (12.0ms)
+Completed in 66ms (View: 19, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 19:36:31) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (106.0ms)
+Completed in 224ms (View: 167, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-19 19:36:33) [GET]
+
+ActionController::RoutingError (No route matches "/ckeditor/skins/kama/editor.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 19:37:05) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (12.0ms)
+Completed in 66ms (View: 17, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 19:37:21) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (112.0ms)
+Completed in 224ms (View: 170, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-19 19:37:23) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/stylesheets/ckeditor/skins/kama/editor.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 19:38:05) [GET]
+  [4;35;1mNote Load (10.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (183.0ms)
+Completed in 345ms (View: 260, DB: 10) | 200 OK [http://localhost/notes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-19 19:38:08) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/javascripts/ckeditor/skins/kama/editor.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 19:38:29) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (13.0ms)
+Completed in 64ms (View: 17, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 19:39:20) [GET]
+  [4;35;1mNote Load (15.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (163.0ms)
+Completed in 338ms (View: 231, DB: 15) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 19:39:27) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (12.0ms)
+Completed in 67ms (View: 17, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 19:40:26) [GET]
+  [4;35;1mNote Load (7.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (697.0ms)
+Completed in 1542ms (View: 1405, DB: 7) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 19:43:14) [GET]
+  [4;36;1mNote Load (8.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (145.0ms)
+Completed in 375ms (View: 246, DB: 8) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 19:43:20) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (15.0ms)
+Completed in 86ms (View: 24, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 19:44:43) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (173.0ms)
+Completed in 329ms (View: 224, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 19:47:53) [GET]
+  [4;35;1mNote Load (11.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (367.0ms)
+Completed in 599ms (View: 507, DB: 11) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 19:48:04) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (12.0ms)
+Completed in 105ms (View: 17, DB: 1) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-19 19:48:07) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/sprites.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-19 19:48:08) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/icons.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-19 19:48:15) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/sprites.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-19 19:48:17) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/icons.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 19:50:58) [GET]
+  [4;35;1mNote Load (8.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (175.0ms)
+Completed in 357ms (View: 261, DB: 8) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 19:51:06) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (15.0ms)
+Completed in 85ms (View: 20, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-19 19:51:08) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/icons.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-19 19:51:09) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/sprites.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-19 19:51:15) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/icons.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-19 19:51:17) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/sprites.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-19 19:52:31) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/icons.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-19 19:52:32) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/sprites.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-19 19:54:43) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/icons.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-19 19:54:43) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/sprites.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 19:59:35) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (386.0ms)
+Completed in 614ms (View: 551, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 20:02:20) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (1.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (23.0ms)
+Completed in 247ms (View: 200, DB: 1) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 20:34:38) [GET]
+  [4;36;1mNote Load (8.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (126.0ms)
+Completed in 216ms (View: 157, DB: 8) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 20:35:33) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (1.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+ERROR: compiling _run_erb_app47views47notes47_edit46html46erb_locals_edit_object RAISED compile error
+c:/ruby/rails_projects/notes_app/app/views/notes/_edit.html.erb:14: syntax error, unexpected ':', expecting ')'
+@output_buffer.concat "\t\t"; @output_buffer.concat(( form.cktext_area :content, :toolbar=>'Basic', :skin => 'v2' :width=>'710px', :height=>'200px' ).to_s); @output_buffer.concat "\n"
+                                                                                                                   ^
+c:/ruby/rails_projects/notes_app/app/views/notes/_edit.html.erb:14: syntax error, unexpected ',', expecting ')'
+@output_buffer.concat "\t\t"; @output_buffer.concat(( form.cktext_area :content, :toolbar=>'Basic', :skin => 'v2' :width=>'710px', :height=>'200px' ).to_s); @output_buffer.concat "\n"
+                                                                                                                                  ^
+Function body:           def _run_erb_app47views47notes47_edit46html46erb_locals_edit_object(local_assigns)
+            old_output_buffer = output_buffer;edit = local_assigns[:edit];object = local_assigns[:object];;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<div id=\"note-editor-title\">\n"
+@output_buffer.concat "\t"; @output_buffer.concat((@note.title).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "</div>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<div id=\"note-editor-toolbar\">\n"
+@output_buffer.concat "</div>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<div id=\"note-editor-date-time\">\n"
+@output_buffer.concat "\t"; @output_buffer.concat((@note.created_at.strftime("%A #{@note.created_at.day.ordinalize} %B %Y %I:%M%p") if @note.created_at ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "</div>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<div id=\"note-editor-editor\">\n"
+@output_buffer.concat "\t";  semantic_form_for @note, :html => { :id => 'update_content_form'} do |form| ; @output_buffer.concat "\n"
+@output_buffer.concat "\t\t"; @output_buffer.concat(( form.cktext_area :content, :toolbar=>'Basic', :skin => 'v2' :width=>'710px', :height=>'200px' ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\t\t<button id=\"note_submit\" onclick=\"return updateNote(this.form);\">Update</button>\n"
+@output_buffer.concat "\t";  end ; @output_buffer.concat "\n"
+@output_buffer.concat "</div>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<div id=\"edit-status\"></div>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<div id=\"note-editor-delete\">\n"
+@output_buffer.concat "\t<a href=\"/notes/destroy/"; @output_buffer.concat((@note.id).to_s); @output_buffer.concat "\" onclick=\"return deleteNote(this, '#notes-listing-item-"; @output_buffer.concat((@note.id).to_s); @output_buffer.concat "');\">\n"
+@output_buffer.concat "\t\t<img src=\"/images/delete_this_note_button.gif\" name=\"delete_note\" class=\"header-button-set\"/>\n"
+@output_buffer.concat "\t</a>\n"
+@output_buffer.concat "</div>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<script type=\"text/javascript\">\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "\t// updates a note\n"
+@output_buffer.concat "\tfunction updateNote(form){\n"
+@output_buffer.concat "\t\t$('#' + form.id).submit(function() {\n"
+@output_buffer.concat "\t\t\tvar path = $('#' + form.id).attr(\"action\");\n"
+@output_buffer.concat "\t\t\tvar params = $('#' + form.id).serialize();\n"
+@output_buffer.concat "\t\t\t$.post(path, params, function(data) {\n"
+@output_buffer.concat "\t\t\t\tif(data.success){\n"
+@output_buffer.concat "\t\t\t\t\t$('#edit-status').html(\"Updated\");\n"
+@output_buffer.concat "\t\t\t\t}\n"
+@output_buffer.concat "\t\t\t\telse\n"
+@output_buffer.concat "\t\t\t\t{\n"
+@output_buffer.concat "\t\t\t\t\t\n"
+@output_buffer.concat "\t\t\t\t}\n"
+@output_buffer.concat "\t\t\t}, \"json\");\n"
+@output_buffer.concat "\t\t\treturn false;\n"
+@output_buffer.concat "\t\t});\n"
+@output_buffer.concat "\t\tfalse;\n"
+@output_buffer.concat "\t}\n"
+@output_buffer.concat "\t\n"
+@output_buffer.concat "\t\n"
+@output_buffer.concat "</script>"; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: c:/ruby/rails_projects/notes_app/app/views/notes/_edit.html.erb:52:in `compile!'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:61:in `compile'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:28:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable_partial.rb:20:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:26:in `benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:26:in `benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable_partial.rb:19:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/template.rb:205:in `render_template'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable_partial.rb:44:in `render_partial'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/partials.rb:184:in `render_partial'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:267:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:964:in `render_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/rails_projects/notes_app/app/controllers/notes_controller.rb:56:in `edit'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `send'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `perform_action_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+c:/ruby/rails_projects/notes_app/app/views/notes/_edit.html.erb:14: syntax error, unexpected ':', expecting ')'
+@output_buffer.concat "\t\t"; @output_buffer.concat(( form.cktext_area :content, :toolbar=>'Basic', :skin => 'v2' :width=>'710px', :height=>'200px' ).to_s); @output_buffer.concat "\n"
+                                                                                                                   ^
+c:/ruby/rails_projects/notes_app/app/views/notes/_edit.html.erb:14: syntax error, unexpected ',', expecting ')'
+@output_buffer.concat "\t\t"; @output_buffer.concat(( form.cktext_area :content, :toolbar=>'Basic', :skin => 'v2' :width=>'710px', :height=>'200px' ).to_s); @output_buffer.concat "\n"
+                                                                                                                                  ^) on line #14 of app/views/notes/_edit.html.erb:
+11: 
+12: <div id="note-editor-editor">
+13: 	<% semantic_form_for @note, :html => { :id => 'update_content_form'} do |form| %>
+14: 		<%= form.cktext_area :content, :toolbar=>'Basic', :skin => 'v2' :width=>'710px', :height=>'200px' %>
+15: 		<button id="note_submit" onclick="return updateNote(this.form);">Update</button>
+16: 	<% end %>
+17: </div>
+
+    app/views/notes/_edit.html.erb:52:in `compile!'
+    app/controllers/notes_controller.rb:56:in `edit'
+
+Rendered rescues/_trace (456.0ms)
+Rendered rescues/_request_and_response (7.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 20:35:42) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (2.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+ERROR: compiling _run_erb_app47views47notes47_edit46html46erb_locals_edit_object RAISED compile error
+c:/ruby/rails_projects/notes_app/app/views/notes/_edit.html.erb:14: syntax error, unexpected ':', expecting ')'
+@output_buffer.concat "\t\t"; @output_buffer.concat(( form.cktext_area :content, :toolbar=>'Basic', :skin => 'v2' :width=>'710px', :height=>'200px' ).to_s); @output_buffer.concat "\n"
+                                                                                                                   ^
+c:/ruby/rails_projects/notes_app/app/views/notes/_edit.html.erb:14: syntax error, unexpected ',', expecting ')'
+@output_buffer.concat "\t\t"; @output_buffer.concat(( form.cktext_area :content, :toolbar=>'Basic', :skin => 'v2' :width=>'710px', :height=>'200px' ).to_s); @output_buffer.concat "\n"
+                                                                                                                                  ^
+Function body:           def _run_erb_app47views47notes47_edit46html46erb_locals_edit_object(local_assigns)
+            old_output_buffer = output_buffer;edit = local_assigns[:edit];object = local_assigns[:object];;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<div id=\"note-editor-title\">\n"
+@output_buffer.concat "\t"; @output_buffer.concat((@note.title).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "</div>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<div id=\"note-editor-toolbar\">\n"
+@output_buffer.concat "</div>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<div id=\"note-editor-date-time\">\n"
+@output_buffer.concat "\t"; @output_buffer.concat((@note.created_at.strftime("%A #{@note.created_at.day.ordinalize} %B %Y %I:%M%p") if @note.created_at ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "</div>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<div id=\"note-editor-editor\">\n"
+@output_buffer.concat "\t";  semantic_form_for @note, :html => { :id => 'update_content_form'} do |form| ; @output_buffer.concat "\n"
+@output_buffer.concat "\t\t"; @output_buffer.concat(( form.cktext_area :content, :toolbar=>'Basic', :skin => 'v2' :width=>'710px', :height=>'200px' ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\t\t<button id=\"note_submit\" onclick=\"return updateNote(this.form);\">Update</button>\n"
+@output_buffer.concat "\t";  end ; @output_buffer.concat "\n"
+@output_buffer.concat "</div>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<div id=\"edit-status\"></div>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<div id=\"note-editor-delete\">\n"
+@output_buffer.concat "\t<a href=\"/notes/destroy/"; @output_buffer.concat((@note.id).to_s); @output_buffer.concat "\" onclick=\"return deleteNote(this, '#notes-listing-item-"; @output_buffer.concat((@note.id).to_s); @output_buffer.concat "');\">\n"
+@output_buffer.concat "\t\t<img src=\"/images/delete_this_note_button.gif\" name=\"delete_note\" class=\"header-button-set\"/>\n"
+@output_buffer.concat "\t</a>\n"
+@output_buffer.concat "</div>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<script type=\"text/javascript\">\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "\t// updates a note\n"
+@output_buffer.concat "\tfunction updateNote(form){\n"
+@output_buffer.concat "\t\t$('#' + form.id).submit(function() {\n"
+@output_buffer.concat "\t\t\tvar path = $('#' + form.id).attr(\"action\");\n"
+@output_buffer.concat "\t\t\tvar params = $('#' + form.id).serialize();\n"
+@output_buffer.concat "\t\t\t$.post(path, params, function(data) {\n"
+@output_buffer.concat "\t\t\t\tif(data.success){\n"
+@output_buffer.concat "\t\t\t\t\t$('#edit-status').html(\"Updated\");\n"
+@output_buffer.concat "\t\t\t\t}\n"
+@output_buffer.concat "\t\t\t\telse\n"
+@output_buffer.concat "\t\t\t\t{\n"
+@output_buffer.concat "\t\t\t\t\t\n"
+@output_buffer.concat "\t\t\t\t}\n"
+@output_buffer.concat "\t\t\t}, \"json\");\n"
+@output_buffer.concat "\t\t\treturn false;\n"
+@output_buffer.concat "\t\t});\n"
+@output_buffer.concat "\t\tfalse;\n"
+@output_buffer.concat "\t}\n"
+@output_buffer.concat "\t\n"
+@output_buffer.concat "\t\n"
+@output_buffer.concat "</script>"; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: c:/ruby/rails_projects/notes_app/app/views/notes/_edit.html.erb:52:in `compile!'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:61:in `compile'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:28:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable_partial.rb:20:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:26:in `benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:26:in `benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable_partial.rb:19:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/template.rb:205:in `render_template'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable_partial.rb:44:in `render_partial'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/partials.rb:184:in `render_partial'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:267:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:964:in `render_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/rails_projects/notes_app/app/controllers/notes_controller.rb:56:in `edit'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `send'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `perform_action_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+c:/ruby/rails_projects/notes_app/app/views/notes/_edit.html.erb:14: syntax error, unexpected ':', expecting ')'
+@output_buffer.concat "\t\t"; @output_buffer.concat(( form.cktext_area :content, :toolbar=>'Basic', :skin => 'v2' :width=>'710px', :height=>'200px' ).to_s); @output_buffer.concat "\n"
+                                                                                                                   ^
+c:/ruby/rails_projects/notes_app/app/views/notes/_edit.html.erb:14: syntax error, unexpected ',', expecting ')'
+@output_buffer.concat "\t\t"; @output_buffer.concat(( form.cktext_area :content, :toolbar=>'Basic', :skin => 'v2' :width=>'710px', :height=>'200px' ).to_s); @output_buffer.concat "\n"
+                                                                                                                                  ^) on line #14 of app/views/notes/_edit.html.erb:
+11: 
+12: <div id="note-editor-editor">
+13: 	<% semantic_form_for @note, :html => { :id => 'update_content_form'} do |form| %>
+14: 		<%= form.cktext_area :content, :toolbar=>'Basic', :skin => 'v2' :width=>'710px', :height=>'200px' %>
+15: 		<button id="note_submit" onclick="return updateNote(this.form);">Update</button>
+16: 	<% end %>
+17: </div>
+
+    app/views/notes/_edit.html.erb:52:in `compile!'
+    app/controllers/notes_controller.rb:56:in `edit'
+
+Rendered rescues/_trace (186.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 20:36:28) [GET]
+  [4;35;1mNote Load (6.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (330.0ms)
+Completed in 434ms (View: 372, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 20:36:40) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (108.0ms)
+Completed in 195ms (View: 139, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 20:36:47) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (1.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (23.0ms)
+Completed in 86ms (View: 40, DB: 1) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 20:56:30) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (98.0ms)
+Completed in 194ms (View: 129, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 20:56:36) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (13.0ms)
+Completed in 78ms (View: 18, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 20:57:41) [GET]
+  [4;36;1mNote Load (18.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (120.0ms)
+Completed in 258ms (View: 158, DB: 18) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 20:57:48) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (11.0ms)
+Completed in 66ms (View: 16, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 20:58:40) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (111.0ms)
+Completed in 201ms (View: 141, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 20:58:47) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (25.0ms)
+Completed in 282ms (View: 54, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 20:59:35) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (106.0ms)
+Completed in 207ms (View: 137, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 20:59:49) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (11.0ms)
+Completed in 67ms (View: 16, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 21:00:26) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (96.0ms)
+Completed in 179ms (View: 125, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 21:00:31) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (14.0ms)
+Completed in 266ms (View: 19, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 21:01:20) [GET]
+  [4;36;1mNote Load (4.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (94.0ms)
+Completed in 180ms (View: 127, DB: 4) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 21:01:26) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (19.0ms)
+Completed in 94ms (View: 25, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 21:03:29) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (122.0ms)
+Completed in 249ms (View: 156, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 21:03:36) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (12.0ms)
+Completed in 78ms (View: 20, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 21:03:51) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (110.0ms)
+Completed in 389ms (View: 141, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 21:04:09) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (1.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (23.0ms)
+Completed in 89ms (View: 43, DB: 1) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 21:04:17) [GET]
+  [4;36;1mNote Load (8.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (98.0ms)
+Completed in 201ms (View: 144, DB: 8) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 21:04:26) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (12.0ms)
+Completed in 85ms (View: 18, DB: 5) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 21:04:47) [GET]
+  [4;36;1mNote Load (7.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (129.0ms)
+Completed in 444ms (View: 163, DB: 7) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 21:04:56) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (44.0ms)
+Completed in 123ms (View: 67, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 21:05:25) [GET]
+  [4;36;1mNote Load (7.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (99.0ms)
+Completed in 187ms (View: 131, DB: 7) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 21:05:35) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (3.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (36.0ms)
+Completed in 130ms (View: 61, DB: 3) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 21:07:44) [GET]
+  [4;36;1mNote Load (11.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (121.0ms)
+Completed in 240ms (View: 168, DB: 11) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 21:07:53) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (26.0ms)
+Completed in 101ms (View: 45, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 21:15:10) [GET]
+  [4;36;1mNote Load (7.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (142.0ms)
+Completed in 274ms (View: 179, DB: 7) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 21:15:29) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (12.0ms)
+Completed in 64ms (View: 16, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 21:16:48) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (95.0ms)
+Completed in 188ms (View: 127, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 21:16:58) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (12.0ms)
+Completed in 63ms (View: 16, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 21:19:10) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (113.0ms)
+Completed in 200ms (View: 143, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 21:19:16) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (11.0ms)
+Completed in 65ms (View: 16, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 21:21:43) [GET]
+  [4;36;1mNote Load (7.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (471.0ms)
+Completed in 589ms (View: 514, DB: 7) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 21:22:14) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (14.0ms)
+Completed in 67ms (View: 19, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 21:24:01) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (114.0ms)
+Completed in 201ms (View: 145, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 21:24:08) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (15.0ms)
+Completed in 69ms (View: 20, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 21:24:35) [GET]
+  [4;36;1mNote Load (6.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (205.0ms)
+Completed in 324ms (View: 240, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 21:24:51) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (12.0ms)
+Completed in 63ms (View: 17, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 21:24:55) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (111.0ms)
+Completed in 202ms (View: 144, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 21:25:03) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (13.0ms)
+Completed in 73ms (View: 17, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 21:28:53) [GET]
+  [4;36;1mNote Load (16.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (297.0ms)
+Completed in 544ms (View: 464, DB: 16) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 21:29:25) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (23.0ms)
+Completed in 260ms (View: 214, DB: 2) | 200 OK [http://localhost/notes/1/edit]

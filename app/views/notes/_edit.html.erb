@@ -11,7 +11,7 @@
 
 <div id="note-editor-editor">
 	<% semantic_form_for @note, :html => { :id => 'update_content_form'} do |form| %>
-		<%= form.text_area :content %>
+		<%= form.cktext_area :content, :toolbar=>'Easy', :width=>'720px', :height=>'450px' %>
 		<button id="note_submit" onclick="return updateNote(this.form);">Update</button>
 	<% end %>
 </div>
