@@ -12,8 +12,10 @@ pre {
   font-size: 11px;
 }
 
-a { color: #000; text-decoration:none; }
-a:visited { color: #666; text-decoration:none; }
+a:active, a:focus { outline:none; }
+a:link img, a:visited img, a:hover img, a:active img { border-width: 0px; } 
+a { text-decoration:none; }
+a:visited { text-decoration:none; }
 a:hover { text-decoration:none; }
 
 .fieldWithErrors {
@@ -220,21 +222,28 @@ a:hover { text-decoration:none; }
 
 #note-editor-editor {
   margin-top: 10px;
-  height: 100px;
+  height: 570px;
   position: relative;
   float: left;
   width: 741px;
   margin-left: 8px;
+  background-color: transparent;
 }
 
 
 #note-editor-delete {
   position: relative;
+  margin-top: 1px;
+  margin-left: 1px;
   float: left;
   width: 741px;
   height: 47px;
   text-align: center;
   background: transparent url('../images/note_editor_delete.gif') no-repeat;
+}
+
+#delete-this-note-button {
+  margin-top: 3px;
 }
 
 #note_submit {
