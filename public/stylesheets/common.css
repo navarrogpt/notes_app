@@ -277,7 +277,7 @@ a:hover { text-decoration:none; }
 
 #note-editor-editor {
   margin-top: 2px;
-  height: 570px;
+  height: 552px;
   position: relative;
   float: left;
   width: 741px;
@@ -285,10 +285,16 @@ a:hover { text-decoration:none; }
   background-color: transparent;
 }
 
+#note-editor-footer {
+  background: transparent url('../images/editor_footer.gif') no-repeat;
+  width: 741px;
+  position: relative;
+  float: left;
+  height:17px;
+}
 
 #note-editor-delete {
   position: relative;
-  margin-top: 10px;
   margin-left: 1px;
   float: left;
   width: 741px;

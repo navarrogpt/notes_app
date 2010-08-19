@@ -17,7 +17,8 @@
 	<% end %>
 </div>
 
-<div id="edit-status"></div>
+<div id="note-editor-footer">
+</div>
 
 <div id="note-editor-delete">
 	<a href="/notes/destroy/<%=@note.id%>" onclick="return deleteNote(this, '#notes-listing-item-<%=@note.id%>');">
@@ -34,7 +35,7 @@
 			var params = $('#' + form.id).serialize();
 			$.post(path, params, function(data) {
 				if(data.success){
-					$('#edit-status').html("Updated");
+				
 				}
 				else
 				{
