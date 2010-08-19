@@ -23658,3 +23658,64 @@ Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 21:29:25) [GET]
   [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
 Rendered notes/_edit (23.0ms)
 Completed in 260ms (View: 214, DB: 2) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 21:38:48) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (2633.0ms)
+Completed in 2809ms (View: 2754, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 21:39:59) [GET]
+  [4;35;1mNote Load (6.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (362.0ms)
+Completed in 474ms (View: 403, DB: 6) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 21:40:26) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (27.0ms)
+Completed in 103ms (View: 46, DB: 1) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 21:40:27) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (3.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (31.0ms)
+Completed in 141ms (View: 39, DB: 3) | 200 OK [http://localhost/notes/1/edit]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 21:41:10) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (114.0ms)
+Completed in 211ms (View: 149, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 21:41:50) [GET]
+  [4;35;1mNote Load (5.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (105.0ms)
+Completed in 201ms (View: 138, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2010-08-19 21:41:56) [GET]
+  [4;36;1mNote Load (5.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_list (103.0ms)
+Completed in 194ms (View: 138, DB: 5) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#edit (for 127.0.0.1 at 2010-08-19 21:42:00) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNote Load (2.0ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1) [0m
+Rendered notes/_edit (15.0ms)
+Completed in 77ms (View: 20, DB: 2) | 200 OK [http://localhost/notes/1/edit]
